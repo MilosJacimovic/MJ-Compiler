@@ -1,0 +1,64 @@
+INFO  16:38:29,495 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  16:38:29,533 - #2 program
+INFO  16:38:29,533 - #48 test301
+INFO  16:38:29,533 - #7 {
+INFO  16:38:29,534 - #8 void
+INFO  16:38:29,535 - #48 main
+INFO  16:38:29,535 - #22 (
+INFO  16:38:29,535 - #23 )
+INFO  16:38:29,535 - #7 {
+INFO  16:38:29,536 - #4 print
+INFO  16:38:29,536 - #22 (
+INFO  16:38:29,536 - #50 1010
+INFO  16:38:29,536 - #23 )
+INFO  16:38:29,538 - #20 ;
+INFO  16:38:29,538 - #10 }
+INFO  16:38:29,538 - #10 }
+INFO  16:38:29,551 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoGlobalDeclarationList(
+  ) [NoGlobalDeclarationList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    NoLocalVarDeclarations(
+    ) [NoLocalVarDeclarations]
+    StmtList(
+      NoStatement(
+      ) [NoStatement]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              ConstFactor(
+                NumberConst(
+                 1010
+                ) [NumberConst]
+              ) [ConstFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  16:38:29,554 - ===================================
+INFO  16:38:29,557 - otvoren scope za program na liniji 3
+INFO  16:38:29,557 - Deklarisana main metoda na liniji 7
+INFO  16:38:29,557 - otvoren scope za main na liniji 7
+INFO  16:38:29,557 - zatvoren scope za main na liniji 7
+INFO  16:38:29,557 - zatvoren scope za program na liniji 3
+INFO  16:38:29,557 - Sintaksna analiza uspesno zavrsena!
+INFO  16:38:29,557 - Semanticka analiza uspesno zavrsena!
+INFO  16:38:29,562 - Generisanje koda uspesno zavrseno!

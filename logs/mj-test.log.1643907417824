@@ -1,0 +1,101 @@
+INFO  17:56:26,487 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  17:56:26,524 - #2 program
+INFO  17:56:26,524 - #48 test301
+INFO  17:56:26,524 - #48 int
+INFO  17:56:26,524 - #48 gl
+INFO  17:56:26,525 - #20 ;
+INFO  17:56:26,525 - #7 {
+INFO  17:56:26,525 - #8 void
+INFO  17:56:26,525 - #48 main
+INFO  17:56:26,526 - #22 (
+INFO  17:56:26,526 - #23 )
+INFO  17:56:26,526 - #48 int
+INFO  17:56:26,527 - #48 b
+INFO  17:56:26,527 - #20 ;
+INFO  17:56:26,527 - #7 {
+INFO  17:56:26,527 - #48 b
+INFO  17:56:26,528 - #16 =
+INFO  17:56:26,528 - #50 2
+INFO  17:56:26,528 - #20 ;
+INFO  17:56:26,530 - #10 }
+INFO  17:56:26,531 - #10 }
+INFO  17:56:26,548 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclList(
+    NoGlobalDeclarationList(
+    ) [NoGlobalDeclarationList]
+    VarDecl(
+      MultipleVarDecls(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          GlobalSimpleVarDecl(
+           gl
+          ) [GlobalSimpleVarDecl]
+        ) [SingleVarDecl]
+      ) [MultipleVarDecls]
+    ) [VarDecl]
+  ) [GlobalDeclList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    HasLocalVarDeclarations(
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Type(
+       int
+      ) [Type]
+      SingleLocalVarDeclaration(
+        SimpleLocalVarDecl(
+         b
+        ) [SimpleLocalVarDecl]
+      ) [SingleLocalVarDeclaration]
+    ) [HasLocalVarDeclarations]
+    StmtList(
+      NoStatement(
+      ) [NoStatement]
+      NoLabelStatement(
+        DesignatorStmt(
+          AssignDesignator(
+            AssignmentDesignatorOk(
+              VarDesignator(
+               b
+              ) [VarDesignator]
+            ) [AssignmentDesignatorOk]
+            AssignmentExprOk(
+              ExprAdditionList(
+                MultipleFactorTerm(
+                  ConstFactor(
+                    NumberConst(
+                     2
+                    ) [NumberConst]
+                  ) [ConstFactor]
+                  NoMullopList(
+                  ) [NoMullopList]
+                ) [MultipleFactorTerm]
+                NoAdditionList(
+                ) [NoAdditionList]
+              ) [ExprAdditionList]
+            ) [AssignmentExprOk]
+          ) [AssignDesignator]
+        ) [DesignatorStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  17:56:26,549 - ===================================
+INFO  17:56:26,552 - otvoren scope za program na liniji 3
+INFO  17:56:26,552 - Deklarisana globalna promenljiva gl tipa Int na liniji 4
+INFO  17:56:26,552 - Deklarisana main metoda na liniji 6
+INFO  17:56:26,552 - otvoren scope za main na liniji 6
+INFO  17:56:26,552 - Deklarisana lokalna promenljiva b tipa Int na liniji 7
+INFO  17:56:26,553 - zatvoren scope za main na liniji 6
+INFO  17:56:26,553 - zatvoren scope za program na liniji 3
+INFO  17:56:26,553 - Sintaksna analiza uspesno zavrsena!
+INFO  17:56:26,553 - Semanticka analiza uspesno zavrsena!

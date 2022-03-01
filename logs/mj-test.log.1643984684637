@@ -1,0 +1,104 @@
+INFO  15:22:15,358 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  15:22:15,390 - #2 program
+INFO  15:22:15,391 - #48 test301
+INFO  15:22:15,391 - #7 {
+INFO  15:22:15,392 - #8 void
+INFO  15:22:15,392 - #48 main
+INFO  15:22:15,392 - #22 (
+INFO  15:22:15,392 - #23 )
+INFO  15:22:15,392 - #48 int
+INFO  15:22:15,393 - #48 prb
+INFO  15:22:15,393 - #20 ;
+INFO  15:22:15,394 - #7 {
+INFO  15:22:15,394 - #4 print
+INFO  15:22:15,394 - #22 (
+INFO  15:22:15,394 - #50 1
+INFO  15:22:15,394 - #23 )
+INFO  15:22:15,396 - #20 ;
+INFO  15:22:15,396 - #4 print
+INFO  15:22:15,397 - #22 (
+INFO  15:22:15,397 - #50 2
+INFO  15:22:15,397 - #23 )
+INFO  15:22:15,397 - #20 ;
+INFO  15:22:15,397 - #10 }
+INFO  15:22:15,400 - #10 }
+INFO  15:22:15,412 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoGlobalDeclarationList(
+  ) [NoGlobalDeclarationList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    HasLocalVarDeclarations(
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Type(
+       int
+      ) [Type]
+      SingleLocalVarDeclaration(
+        SimpleLocalVarDecl(
+         prb
+        ) [SimpleLocalVarDecl]
+      ) [SingleLocalVarDeclaration]
+    ) [HasLocalVarDeclarations]
+    StmtList(
+      StmtList(
+        NoStatement(
+        ) [NoStatement]
+        NoLabelStatement(
+          PrintStmt(
+            ExprAdditionList(
+              MultipleFactorTerm(
+                ConstFactor(
+                  NumberConst(
+                   1
+                  ) [NumberConst]
+                ) [ConstFactor]
+                NoMullopList(
+                ) [NoMullopList]
+              ) [MultipleFactorTerm]
+              NoAdditionList(
+              ) [NoAdditionList]
+            ) [ExprAdditionList]
+            NoPrintOptions(
+            ) [NoPrintOptions]
+          ) [PrintStmt]
+        ) [NoLabelStatement]
+      ) [StmtList]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              ConstFactor(
+                NumberConst(
+                 2
+                ) [NumberConst]
+              ) [ConstFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  15:22:15,412 - ===================================
+INFO  15:22:15,415 - otvoren scope za program na liniji 3
+INFO  15:22:15,415 - Deklarisana main metoda na liniji 6
+INFO  15:22:15,415 - otvoren scope za main na liniji 6
+INFO  15:22:15,415 - Deklarisana lokalna promenljiva prb tipa Int na liniji 7
+INFO  15:22:15,416 - zatvoren scope za main na liniji 6
+INFO  15:22:15,416 - zatvoren scope za program na liniji 3
+INFO  15:22:15,416 - Sintaksna analiza uspesno zavrsena!
+INFO  15:22:15,416 - Semanticka analiza uspesno zavrsena!
+INFO  15:22:15,421 - Generisanje koda uspesno zavrseno!

@@ -1,0 +1,64 @@
+INFO  16:38:17,469 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  16:38:17,502 - #2 program
+INFO  16:38:17,502 - #48 test301
+INFO  16:38:17,502 - #7 {
+INFO  16:38:17,503 - #8 void
+INFO  16:38:17,503 - #48 main
+INFO  16:38:17,503 - #22 (
+INFO  16:38:17,504 - #23 )
+INFO  16:38:17,504 - #7 {
+INFO  16:38:17,505 - #4 print
+INFO  16:38:17,505 - #22 (
+INFO  16:38:17,506 - #50 101
+INFO  16:38:17,506 - #23 )
+INFO  16:38:17,508 - #20 ;
+INFO  16:38:17,508 - #10 }
+INFO  16:38:17,508 - #10 }
+INFO  16:38:17,522 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoGlobalDeclarationList(
+  ) [NoGlobalDeclarationList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    NoLocalVarDeclarations(
+    ) [NoLocalVarDeclarations]
+    StmtList(
+      NoStatement(
+      ) [NoStatement]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              ConstFactor(
+                NumberConst(
+                 101
+                ) [NumberConst]
+              ) [ConstFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  16:38:17,522 - ===================================
+INFO  16:38:17,525 - otvoren scope za program na liniji 3
+INFO  16:38:17,526 - Deklarisana main metoda na liniji 7
+INFO  16:38:17,526 - otvoren scope za main na liniji 7
+INFO  16:38:17,526 - zatvoren scope za main na liniji 7
+INFO  16:38:17,526 - zatvoren scope za program na liniji 3
+INFO  16:38:17,526 - Sintaksna analiza uspesno zavrsena!
+INFO  16:38:17,526 - Semanticka analiza uspesno zavrsena!
+INFO  16:38:17,531 - Generisanje koda uspesno zavrseno!

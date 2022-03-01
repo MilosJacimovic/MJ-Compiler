@@ -1,0 +1,64 @@
+INFO  16:38:40,959 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  16:38:41,000 - #2 program
+INFO  16:38:41,000 - #48 test301
+INFO  16:38:41,000 - #7 {
+INFO  16:38:41,001 - #8 void
+INFO  16:38:41,001 - #48 main
+INFO  16:38:41,001 - #22 (
+INFO  16:38:41,002 - #23 )
+INFO  16:38:41,002 - #7 {
+INFO  16:38:41,003 - #4 print
+INFO  16:38:41,004 - #22 (
+INFO  16:38:41,004 - #50 10101
+INFO  16:38:41,004 - #23 )
+INFO  16:38:41,006 - #20 ;
+INFO  16:38:41,006 - #10 }
+INFO  16:38:41,006 - #10 }
+INFO  16:38:41,019 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoGlobalDeclarationList(
+  ) [NoGlobalDeclarationList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    NoLocalVarDeclarations(
+    ) [NoLocalVarDeclarations]
+    StmtList(
+      NoStatement(
+      ) [NoStatement]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              ConstFactor(
+                NumberConst(
+                 10101
+                ) [NumberConst]
+              ) [ConstFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  16:38:41,021 - ===================================
+INFO  16:38:41,024 - otvoren scope za program na liniji 3
+INFO  16:38:41,024 - Deklarisana main metoda na liniji 7
+INFO  16:38:41,024 - otvoren scope za main na liniji 7
+INFO  16:38:41,024 - zatvoren scope za main na liniji 7
+INFO  16:38:41,024 - zatvoren scope za program na liniji 3
+INFO  16:38:41,024 - Sintaksna analiza uspesno zavrsena!
+INFO  16:38:41,024 - Semanticka analiza uspesno zavrsena!
+INFO  16:38:41,030 - Generisanje koda uspesno zavrseno!

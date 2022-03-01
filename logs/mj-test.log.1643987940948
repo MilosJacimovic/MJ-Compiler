@@ -1,0 +1,194 @@
+INFO  16:18:35,445 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  16:18:35,479 - #2 program
+INFO  16:18:35,479 - #48 test301
+INFO  16:18:35,479 - #48 int
+INFO  16:18:35,480 - #48 x
+INFO  16:18:35,481 - #20 ;
+INFO  16:18:35,481 - #48 int
+INFO  16:18:35,481 - #48 y
+INFO  16:18:35,482 - #20 ;
+INFO  16:18:35,482 - #7 {
+INFO  16:18:35,482 - #8 void
+INFO  16:18:35,482 - #48 main
+INFO  16:18:35,482 - #22 (
+INFO  16:18:35,482 - #23 )
+INFO  16:18:35,482 - #7 {
+INFO  16:18:35,483 - #48 y
+INFO  16:18:35,483 - #16 =
+INFO  16:18:35,484 - #50 2
+INFO  16:18:35,484 - #20 ;
+INFO  16:18:35,485 - #48 x
+INFO  16:18:35,486 - #16 =
+INFO  16:18:35,486 - #48 y
+INFO  16:18:35,486 - #20 ;
+INFO  16:18:35,489 - #4 print
+INFO  16:18:35,489 - #22 (
+INFO  16:18:35,489 - #50 1
+INFO  16:18:35,489 - #23 )
+INFO  16:18:35,490 - #20 ;
+INFO  16:18:35,490 - #4 print
+INFO  16:18:35,490 - #22 (
+INFO  16:18:35,490 - #48 x
+INFO  16:18:35,490 - #23 )
+INFO  16:18:35,490 - #20 ;
+INFO  16:18:35,490 - #10 }
+INFO  16:18:35,490 - #10 }
+INFO  16:18:35,503 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclList(
+    GlobalDeclList(
+      NoGlobalDeclarationList(
+      ) [NoGlobalDeclarationList]
+      VarDecl(
+        MultipleVarDecls(
+          Type(
+           int
+          ) [Type]
+          SingleVarDecl(
+            GlobalSimpleVarDecl(
+             x
+            ) [GlobalSimpleVarDecl]
+          ) [SingleVarDecl]
+        ) [MultipleVarDecls]
+      ) [VarDecl]
+    ) [GlobalDeclList]
+    VarDecl(
+      MultipleVarDecls(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          GlobalSimpleVarDecl(
+           y
+          ) [GlobalSimpleVarDecl]
+        ) [SingleVarDecl]
+      ) [MultipleVarDecls]
+    ) [VarDecl]
+  ) [GlobalDeclList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    NoLocalVarDeclarations(
+    ) [NoLocalVarDeclarations]
+    StmtList(
+      StmtList(
+        StmtList(
+          StmtList(
+            NoStatement(
+            ) [NoStatement]
+            NoLabelStatement(
+              DesignatorStmt(
+                AssignDesignator(
+                  AssignmentDesignatorOk(
+                    VarDesignator(
+                     y
+                    ) [VarDesignator]
+                  ) [AssignmentDesignatorOk]
+                  AssignmentExprOk(
+                    ExprAdditionList(
+                      MultipleFactorTerm(
+                        ConstFactor(
+                          NumberConst(
+                           2
+                          ) [NumberConst]
+                        ) [ConstFactor]
+                        NoMullopList(
+                        ) [NoMullopList]
+                      ) [MultipleFactorTerm]
+                      NoAdditionList(
+                      ) [NoAdditionList]
+                    ) [ExprAdditionList]
+                  ) [AssignmentExprOk]
+                ) [AssignDesignator]
+              ) [DesignatorStmt]
+            ) [NoLabelStatement]
+          ) [StmtList]
+          NoLabelStatement(
+            DesignatorStmt(
+              AssignDesignator(
+                AssignmentDesignatorOk(
+                  VarDesignator(
+                   x
+                  ) [VarDesignator]
+                ) [AssignmentDesignatorOk]
+                AssignmentExprOk(
+                  ExprAdditionList(
+                    MultipleFactorTerm(
+                      DesignatorFactor(
+                        VarDesignator(
+                         y
+                        ) [VarDesignator]
+                      ) [DesignatorFactor]
+                      NoMullopList(
+                      ) [NoMullopList]
+                    ) [MultipleFactorTerm]
+                    NoAdditionList(
+                    ) [NoAdditionList]
+                  ) [ExprAdditionList]
+                ) [AssignmentExprOk]
+              ) [AssignDesignator]
+            ) [DesignatorStmt]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStmt(
+            ExprAdditionList(
+              MultipleFactorTerm(
+                ConstFactor(
+                  NumberConst(
+                   1
+                  ) [NumberConst]
+                ) [ConstFactor]
+                NoMullopList(
+                ) [NoMullopList]
+              ) [MultipleFactorTerm]
+              NoAdditionList(
+              ) [NoAdditionList]
+            ) [ExprAdditionList]
+            NoPrintOptions(
+            ) [NoPrintOptions]
+          ) [PrintStmt]
+        ) [NoLabelStatement]
+      ) [StmtList]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              DesignatorFactor(
+                VarDesignator(
+                 x
+                ) [VarDesignator]
+              ) [DesignatorFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  16:18:35,503 - ===================================
+INFO  16:18:35,506 - otvoren scope za program na liniji 3
+INFO  16:18:35,506 - Deklarisana globalna promenljiva x tipa Int na liniji 4
+INFO  16:18:35,506 - Deklarisana globalna promenljiva y tipa Int na liniji 5
+INFO  16:18:35,506 - Deklarisana main metoda na liniji 9
+INFO  16:18:35,506 - otvoren scope za main na liniji 9
+INFO  16:18:35,506 - Pretraga y tipa Int na liniji 11
+INFO  16:18:35,507 - Pretraga x tipa Int na liniji 12
+INFO  16:18:35,507 - Pretraga y tipa Int na liniji 12
+INFO  16:18:35,507 - Pretraga x tipa Int na liniji 16
+INFO  16:18:35,507 - zatvoren scope za main na liniji 9
+INFO  16:18:35,507 - zatvoren scope za program na liniji 3
+INFO  16:18:35,507 - Sintaksna analiza uspesno zavrsena!
+INFO  16:18:35,507 - Semanticka analiza uspesno zavrsena!
+INFO  16:18:35,512 - Generisanje koda uspesno zavrseno!

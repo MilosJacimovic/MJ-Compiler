@@ -1,0 +1,81 @@
+INFO  17:40:07,810 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  17:40:07,841 - #2 program
+INFO  17:40:07,842 - #48 test301
+INFO  17:40:07,842 - #7 {
+INFO  17:40:07,843 - #8 void
+INFO  17:40:07,843 - #48 main
+INFO  17:40:07,843 - #22 (
+INFO  17:40:07,843 - #23 )
+INFO  17:40:07,843 - #48 int
+INFO  17:40:07,844 - #48 b
+INFO  17:40:07,844 - #20 ;
+INFO  17:40:07,845 - #7 {
+INFO  17:40:07,845 - #48 b
+INFO  17:40:07,845 - #16 =
+INFO  17:40:07,846 - #50 2
+INFO  17:40:07,846 - #20 ;
+INFO  17:40:07,847 - #10 }
+INFO  17:40:07,848 - #10 }
+INFO  17:40:07,859 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoGlobalDeclarationList(
+  ) [NoGlobalDeclarationList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    HasLocalVarDeclarations(
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Type(
+       int
+      ) [Type]
+      SingleLocalVarDeclaration(
+        SimpleLocalVarDecl(
+         b
+        ) [SimpleLocalVarDecl]
+      ) [SingleLocalVarDeclaration]
+    ) [HasLocalVarDeclarations]
+    StmtList(
+      NoStatement(
+      ) [NoStatement]
+      NoLabelStatement(
+        DesignatorStmt(
+          AssignDesignator(
+            AssignmentDesignatorOk(
+              VarDesignator(
+               b
+              ) [VarDesignator]
+            ) [AssignmentDesignatorOk]
+            AssignmentExprOk(
+              ExprAdditionList(
+                MultipleFactorTerm(
+                  ConstFactor(
+                    NumberConst(
+                     2
+                    ) [NumberConst]
+                  ) [ConstFactor]
+                  NoMullopList(
+                  ) [NoMullopList]
+                ) [MultipleFactorTerm]
+                NoAdditionList(
+                ) [NoAdditionList]
+              ) [ExprAdditionList]
+            ) [AssignmentExprOk]
+          ) [AssignDesignator]
+        ) [DesignatorStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  17:40:07,862 - ===================================
+INFO  17:40:07,865 - Deklarisana main metoda na liniji 6
+INFO  17:40:07,865 - Deklarisana lokalna promenljiva b tipa Int na liniji 7
+INFO  17:40:07,865 - Pretraga b tipa Int na liniji 9
+INFO  17:40:07,866 - Sintaksna analiza uspesno zavrsena!
+INFO  17:40:07,866 - Semanticka analiza uspesno zavrsena!
+INFO  17:40:07,867 - ===================================

@@ -1,0 +1,251 @@
+INFO  13:48:32,997 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  13:48:33,031 - #2 program
+INFO  13:48:33,031 - #48 test301
+INFO  13:48:33,031 - #48 int
+INFO  13:48:33,032 - #48 niz
+INFO  13:48:33,033 - #24 [
+INFO  13:48:33,033 - #25 ]
+INFO  13:48:33,033 - #20 ;
+INFO  13:48:33,033 - #7 {
+INFO  13:48:33,033 - #8 void
+INFO  13:48:33,033 - #48 main
+INFO  13:48:33,034 - #22 (
+INFO  13:48:33,034 - #23 )
+INFO  13:48:33,034 - #48 int
+INFO  13:48:33,035 - #48 bodovi
+INFO  13:48:33,035 - #20 ;
+INFO  13:48:33,035 - #7 {
+INFO  13:48:33,035 - #48 bodovi
+INFO  13:48:33,036 - #16 =
+INFO  13:48:33,036 - #50 2
+INFO  13:48:33,036 - #20 ;
+INFO  13:48:33,038 - #48 niz
+INFO  13:48:33,041 - #16 =
+INFO  13:48:33,041 - #3 new
+INFO  13:48:33,041 - #48 int
+INFO  13:48:33,041 - #24 [
+INFO  13:48:33,041 - #48 bodovi
+INFO  13:48:33,041 - #25 ]
+INFO  13:48:33,042 - #20 ;
+INFO  13:48:33,042 - #48 niz
+INFO  13:48:33,042 - #24 [
+INFO  13:48:33,043 - #50 1
+INFO  13:48:33,043 - #25 ]
+INFO  13:48:33,043 - #16 =
+INFO  13:48:33,043 - #50 6
+INFO  13:48:33,043 - #20 ;
+INFO  13:48:33,043 - #4 print
+INFO  13:48:33,043 - #22 (
+INFO  13:48:33,043 - #48 niz
+INFO  13:48:33,043 - #24 [
+INFO  13:48:33,044 - #50 1
+INFO  13:48:33,044 - #25 ]
+INFO  13:48:33,044 - #23 )
+INFO  13:48:33,044 - #20 ;
+INFO  13:48:33,044 - #10 }
+INFO  13:48:33,045 - #10 }
+INFO  13:48:33,065 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclList(
+    NoGlobalDeclarationList(
+    ) [NoGlobalDeclarationList]
+    VarDecl(
+      MultipleVarDecls(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          GlobalArrayVarDecl(
+           niz
+          ) [GlobalArrayVarDecl]
+        ) [SingleVarDecl]
+      ) [MultipleVarDecls]
+    ) [VarDecl]
+  ) [GlobalDeclList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    HasLocalVarDeclarations(
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Type(
+       int
+      ) [Type]
+      SingleLocalVarDeclaration(
+        SimpleLocalVarDecl(
+         bodovi
+        ) [SimpleLocalVarDecl]
+      ) [SingleLocalVarDeclaration]
+    ) [HasLocalVarDeclarations]
+    StmtList(
+      StmtList(
+        StmtList(
+          StmtList(
+            NoStatement(
+            ) [NoStatement]
+            NoLabelStatement(
+              DesignatorStmt(
+                AssignDesignator(
+                  AssignmentDesignatorOk(
+                    VarDesignator(
+                     bodovi
+                    ) [VarDesignator]
+                  ) [AssignmentDesignatorOk]
+                  AssignmentExprOk(
+                    ExprAdditionList(
+                      MultipleFactorTerm(
+                        ConstFactor(
+                          NumberConst(
+                           2
+                          ) [NumberConst]
+                        ) [ConstFactor]
+                        NoMullopList(
+                        ) [NoMullopList]
+                      ) [MultipleFactorTerm]
+                      NoAdditionList(
+                      ) [NoAdditionList]
+                    ) [ExprAdditionList]
+                  ) [AssignmentExprOk]
+                ) [AssignDesignator]
+              ) [DesignatorStmt]
+            ) [NoLabelStatement]
+          ) [StmtList]
+          NoLabelStatement(
+            DesignatorStmt(
+              AssignDesignator(
+                AssignmentDesignatorOk(
+                  VarDesignator(
+                   niz
+                  ) [VarDesignator]
+                ) [AssignmentDesignatorOk]
+                AssignmentExprOk(
+                  ExprAdditionList(
+                    MultipleFactorTerm(
+                      NewArrayFactor(
+                        Type(
+                         int
+                        ) [Type]
+                        ExprAdditionList(
+                          MultipleFactorTerm(
+                            DesignatorFactor(
+                              VarDesignator(
+                               bodovi
+                              ) [VarDesignator]
+                            ) [DesignatorFactor]
+                            NoMullopList(
+                            ) [NoMullopList]
+                          ) [MultipleFactorTerm]
+                          NoAdditionList(
+                          ) [NoAdditionList]
+                        ) [ExprAdditionList]
+                      ) [NewArrayFactor]
+                      NoMullopList(
+                      ) [NoMullopList]
+                    ) [MultipleFactorTerm]
+                    NoAdditionList(
+                    ) [NoAdditionList]
+                  ) [ExprAdditionList]
+                ) [AssignmentExprOk]
+              ) [AssignDesignator]
+            ) [DesignatorStmt]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          DesignatorStmt(
+            AssignDesignator(
+              AssignmentDesignatorOk(
+                ArrayDesignator(
+                  ArrayName(
+                   niz
+                  ) [ArrayName]
+                  ExprAdditionList(
+                    MultipleFactorTerm(
+                      ConstFactor(
+                        NumberConst(
+                         1
+                        ) [NumberConst]
+                      ) [ConstFactor]
+                      NoMullopList(
+                      ) [NoMullopList]
+                    ) [MultipleFactorTerm]
+                    NoAdditionList(
+                    ) [NoAdditionList]
+                  ) [ExprAdditionList]
+                ) [ArrayDesignator]
+              ) [AssignmentDesignatorOk]
+              AssignmentExprOk(
+                ExprAdditionList(
+                  MultipleFactorTerm(
+                    ConstFactor(
+                      NumberConst(
+                       6
+                      ) [NumberConst]
+                    ) [ConstFactor]
+                    NoMullopList(
+                    ) [NoMullopList]
+                  ) [MultipleFactorTerm]
+                  NoAdditionList(
+                  ) [NoAdditionList]
+                ) [ExprAdditionList]
+              ) [AssignmentExprOk]
+            ) [AssignDesignator]
+          ) [DesignatorStmt]
+        ) [NoLabelStatement]
+      ) [StmtList]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              DesignatorFactor(
+                ArrayDesignator(
+                  ArrayName(
+                   niz
+                  ) [ArrayName]
+                  ExprAdditionList(
+                    MultipleFactorTerm(
+                      ConstFactor(
+                        NumberConst(
+                         1
+                        ) [NumberConst]
+                      ) [ConstFactor]
+                      NoMullopList(
+                      ) [NoMullopList]
+                    ) [MultipleFactorTerm]
+                    NoAdditionList(
+                    ) [NoAdditionList]
+                  ) [ExprAdditionList]
+                ) [ArrayDesignator]
+              ) [DesignatorFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  13:48:33,066 - ===================================
+INFO  13:48:33,069 - otvoren scope za program na liniji 3
+INFO  13:48:33,069 - Deklarisana globalna promenljiva niz tipa Int[] na liniji 6
+INFO  13:48:33,069 - Deklarisana main metoda na liniji 9
+INFO  13:48:33,069 - otvoren scope za main na liniji 9
+INFO  13:48:33,070 - Deklarisana lokalna promenljiva bodovi tipa Int na liniji 10
+INFO  13:48:33,070 - Pretraga bodovi tipa Int na liniji 12
+INFO  13:48:33,070 - Pretraga bodovi tipa Int na liniji 13
+INFO  13:48:33,070 - Pretraga niz tipa Array na liniji 15
+INFO  13:48:33,070 - Pretraga niz tipa Array na liniji 17
+INFO  13:48:33,070 - zatvoren scope za main na liniji 9
+INFO  13:48:33,070 - zatvoren scope za program na liniji 3
+INFO  13:48:33,070 - Sintaksna analiza uspesno zavrsena!
+INFO  13:48:33,070 - Semanticka analiza uspesno zavrsena!
+INFO  13:48:33,077 - Generisanje koda uspesno zavrseno!

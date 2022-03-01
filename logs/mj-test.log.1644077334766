@@ -1,0 +1,180 @@
+INFO  17:04:10,461 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  17:04:10,498 - #2 program
+INFO  17:04:10,499 - #48 test301
+INFO  17:04:10,499 - #7 {
+INFO  17:04:10,500 - #8 void
+INFO  17:04:10,500 - #48 main
+INFO  17:04:10,500 - #22 (
+INFO  17:04:10,501 - #23 )
+INFO  17:04:10,501 - #48 bool
+INFO  17:04:10,501 - #48 b1
+INFO  17:04:10,502 - #21 ,
+INFO  17:04:10,502 - #48 b2
+INFO  17:04:10,502 - #20 ;
+INFO  17:04:10,502 - #7 {
+INFO  17:04:10,503 - #48 b1
+INFO  17:04:10,503 - #16 =
+INFO  17:04:10,504 - #49 true
+INFO  17:04:10,504 - #20 ;
+INFO  17:04:10,505 - #48 b2
+INFO  17:04:10,506 - #16 =
+INFO  17:04:10,506 - #49 false
+INFO  17:04:10,506 - #20 ;
+INFO  17:04:10,510 - #4 print
+INFO  17:04:10,510 - #22 (
+INFO  17:04:10,510 - #48 b1
+INFO  17:04:10,510 - #23 )
+INFO  17:04:10,510 - #20 ;
+INFO  17:04:10,510 - #4 print
+INFO  17:04:10,510 - #22 (
+INFO  17:04:10,510 - #48 b2
+INFO  17:04:10,510 - #23 )
+INFO  17:04:10,510 - #20 ;
+INFO  17:04:10,510 - #10 }
+INFO  17:04:10,510 - #10 }
+INFO  17:04:10,525 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoGlobalDeclarationList(
+  ) [NoGlobalDeclarationList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    HasLocalVarDeclarations(
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Type(
+       bool
+      ) [Type]
+      MultipleLocalVarDecls(
+        SingleLocalVarDeclaration(
+          SimpleLocalVarDecl(
+           b1
+          ) [SimpleLocalVarDecl]
+        ) [SingleLocalVarDeclaration]
+        SimpleLocalVarDecl(
+         b2
+        ) [SimpleLocalVarDecl]
+      ) [MultipleLocalVarDecls]
+    ) [HasLocalVarDeclarations]
+    StmtList(
+      StmtList(
+        StmtList(
+          StmtList(
+            NoStatement(
+            ) [NoStatement]
+            NoLabelStatement(
+              DesignatorStmt(
+                AssignDesignator(
+                  AssignmentDesignatorOk(
+                    VarDesignator(
+                     b1
+                    ) [VarDesignator]
+                  ) [AssignmentDesignatorOk]
+                  AssignmentExprOk(
+                    ExprAdditionList(
+                      MultipleFactorTerm(
+                        ConstFactor(
+                          BoolConst(
+                           true
+                          ) [BoolConst]
+                        ) [ConstFactor]
+                        NoMullopList(
+                        ) [NoMullopList]
+                      ) [MultipleFactorTerm]
+                      NoAdditionList(
+                      ) [NoAdditionList]
+                    ) [ExprAdditionList]
+                  ) [AssignmentExprOk]
+                ) [AssignDesignator]
+              ) [DesignatorStmt]
+            ) [NoLabelStatement]
+          ) [StmtList]
+          NoLabelStatement(
+            DesignatorStmt(
+              AssignDesignator(
+                AssignmentDesignatorOk(
+                  VarDesignator(
+                   b2
+                  ) [VarDesignator]
+                ) [AssignmentDesignatorOk]
+                AssignmentExprOk(
+                  ExprAdditionList(
+                    MultipleFactorTerm(
+                      ConstFactor(
+                        BoolConst(
+                         false
+                        ) [BoolConst]
+                      ) [ConstFactor]
+                      NoMullopList(
+                      ) [NoMullopList]
+                    ) [MultipleFactorTerm]
+                    NoAdditionList(
+                    ) [NoAdditionList]
+                  ) [ExprAdditionList]
+                ) [AssignmentExprOk]
+              ) [AssignDesignator]
+            ) [DesignatorStmt]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStmt(
+            ExprAdditionList(
+              MultipleFactorTerm(
+                DesignatorFactor(
+                  VarDesignator(
+                   b1
+                  ) [VarDesignator]
+                ) [DesignatorFactor]
+                NoMullopList(
+                ) [NoMullopList]
+              ) [MultipleFactorTerm]
+              NoAdditionList(
+              ) [NoAdditionList]
+            ) [ExprAdditionList]
+            NoPrintOptions(
+            ) [NoPrintOptions]
+          ) [PrintStmt]
+        ) [NoLabelStatement]
+      ) [StmtList]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              DesignatorFactor(
+                VarDesignator(
+                 b2
+                ) [VarDesignator]
+              ) [DesignatorFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  17:04:10,525 - ===================================
+INFO  17:04:10,528 - otvoren scope za program na liniji 3
+INFO  17:04:10,528 - Deklarisana main metoda na liniji 5
+INFO  17:04:10,528 - otvoren scope za main na liniji 5
+INFO  17:04:10,529 - Deklarisana lokalna promenljiva b1 tipa Bool na liniji 6
+INFO  17:04:10,529 - Deklarisana lokalna promenljiva b2 tipa Bool na liniji 6
+INFO  17:04:10,529 - Pretraga b1 tipa Bool na liniji 8
+INFO  17:04:10,529 - Pretraga b2 tipa Bool na liniji 9
+INFO  17:04:10,529 - Pretraga b1 tipa Bool na liniji 11
+INFO  17:04:10,529 - Pretraga b2 tipa Bool na liniji 13
+INFO  17:04:10,529 - zatvoren scope za main na liniji 5
+INFO  17:04:10,529 - zatvoren scope za program na liniji 3
+INFO  17:04:10,529 - Sintaksna analiza uspesno zavrsena!
+INFO  17:04:10,529 - Semanticka analiza uspesno zavrsena!
+INFO  17:04:10,535 - Generisanje koda uspesno zavrseno!

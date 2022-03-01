@@ -1,0 +1,91 @@
+INFO  17:09:04,560 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  17:09:04,596 - #2 program
+INFO  17:09:04,596 - #48 test301
+INFO  17:09:04,596 - #26 const
+INFO  17:09:04,597 - #48 int
+INFO  17:09:04,597 - #48 cst
+INFO  17:09:04,598 - #16 =
+INFO  17:09:04,598 - #50 2
+INFO  17:09:04,598 - #20 ;
+INFO  17:09:04,598 - #7 {
+INFO  17:09:04,599 - #8 void
+INFO  17:09:04,599 - #48 main
+INFO  17:09:04,599 - #22 (
+INFO  17:09:04,599 - #23 )
+INFO  17:09:04,600 - #7 {
+INFO  17:09:04,600 - #4 print
+INFO  17:09:04,601 - #22 (
+INFO  17:09:04,601 - #50 2
+INFO  17:09:04,601 - #21 ,
+INFO  17:09:04,602 - #50 2
+INFO  17:09:04,602 - #23 )
+INFO  17:09:04,602 - #20 ;
+INFO  17:09:04,603 - #10 }
+INFO  17:09:04,606 - #10 }
+INFO  17:09:04,618 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclList(
+    NoGlobalDeclarationList(
+    ) [NoGlobalDeclarationList]
+    ConstDecl(
+      MultipleConstDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclarations(
+          SingleConstDecl(
+           cst
+            NumberConst(
+             2
+            ) [NumberConst]
+          ) [SingleConstDecl]
+        ) [SingleConstDeclarations]
+      ) [MultipleConstDeclarations]
+    ) [ConstDecl]
+  ) [GlobalDeclList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    NoLocalVarDeclarations(
+    ) [NoLocalVarDeclarations]
+    StmtList(
+      NoStatement(
+      ) [NoStatement]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              ConstFactor(
+                NumberConst(
+                 2
+                ) [NumberConst]
+              ) [ConstFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          HasPrintOption(
+           2
+          ) [HasPrintOption]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  17:09:04,619 - ===================================
+INFO  17:09:04,622 - otvoren scope za program na liniji 3
+INFO  17:09:04,622 - Deklarisana konstanta cst tipa Int na liniji 4
+INFO  17:09:04,622 - Deklarisana main metoda na liniji 9
+INFO  17:09:04,622 - otvoren scope za main na liniji 9
+INFO  17:09:04,622 - zatvoren scope za main na liniji 9
+INFO  17:09:04,622 - zatvoren scope za program na liniji 3
+INFO  17:09:04,622 - Sintaksna analiza uspesno zavrsena!
+INFO  17:09:04,622 - Semanticka analiza uspesno zavrsena!
+INFO  17:09:04,627 - Generisanje koda uspesno zavrseno!

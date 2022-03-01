@@ -1,0 +1,359 @@
+INFO  16:45:10,760 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  16:45:10,802 - #2 program
+INFO  16:45:10,802 - #48 test301
+INFO  16:45:10,802 - #7 {
+INFO  16:45:10,803 - #8 void
+INFO  16:45:10,803 - #48 main
+INFO  16:45:10,803 - #22 (
+INFO  16:45:10,804 - #23 )
+INFO  16:45:10,804 - #48 int
+INFO  16:45:10,805 - #48 b
+INFO  16:45:10,805 - #24 [
+INFO  16:45:10,805 - #25 ]
+INFO  16:45:10,805 - #20 ;
+INFO  16:45:10,806 - #48 int
+INFO  16:45:10,806 - #48 c
+INFO  16:45:10,806 - #20 ;
+INFO  16:45:10,806 - #48 int
+INFO  16:45:10,806 - #48 p
+INFO  16:45:10,806 - #20 ;
+INFO  16:45:10,806 - #7 {
+INFO  16:45:10,806 - #48 b
+INFO  16:45:10,807 - #16 =
+INFO  16:45:10,807 - #3 new
+INFO  16:45:10,810 - #48 int
+INFO  16:45:10,810 - #24 [
+INFO  16:45:10,811 - #50 2
+INFO  16:45:10,811 - #25 ]
+INFO  16:45:10,813 - #20 ;
+INFO  16:45:10,813 - #48 b
+INFO  16:45:10,813 - #24 [
+INFO  16:45:10,814 - #50 0
+INFO  16:45:10,814 - #25 ]
+INFO  16:45:10,814 - #16 =
+INFO  16:45:10,814 - #50 2
+INFO  16:45:10,814 - #20 ;
+INFO  16:45:10,814 - #48 c
+INFO  16:45:10,815 - #16 =
+INFO  16:45:10,815 - #48 b
+INFO  16:45:10,815 - #24 [
+INFO  16:45:10,815 - #50 0
+INFO  16:45:10,815 - #25 ]
+INFO  16:45:10,815 - #20 ;
+INFO  16:45:10,816 - #48 p
+INFO  16:45:10,816 - #16 =
+INFO  16:45:10,816 - #48 c
+INFO  16:45:10,816 - #11 +
+INFO  16:45:10,816 - #48 b
+INFO  16:45:10,818 - #24 [
+INFO  16:45:10,818 - #50 0
+INFO  16:45:10,818 - #25 ]
+INFO  16:45:10,818 - #11 +
+INFO  16:45:10,818 - #50 4
+INFO  16:45:10,818 - #12 -
+INFO  16:45:10,819 - #50 1
+INFO  16:45:10,820 - #20 ;
+INFO  16:45:10,820 - #4 print
+INFO  16:45:10,820 - #22 (
+INFO  16:45:10,820 - #48 p
+INFO  16:45:10,820 - #23 )
+INFO  16:45:10,821 - #20 ;
+INFO  16:45:10,821 - #10 }
+INFO  16:45:10,821 - #10 }
+INFO  16:45:10,844 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoGlobalDeclarationList(
+  ) [NoGlobalDeclarationList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    HasLocalVarDeclarations(
+      HasLocalVarDeclarations(
+        HasLocalVarDeclarations(
+          NoLocalVarDeclarations(
+          ) [NoLocalVarDeclarations]
+          Type(
+           int
+          ) [Type]
+          SingleLocalVarDeclaration(
+            ArrayLocalVarDecl(
+             b
+            ) [ArrayLocalVarDecl]
+          ) [SingleLocalVarDeclaration]
+        ) [HasLocalVarDeclarations]
+        Type(
+         int
+        ) [Type]
+        SingleLocalVarDeclaration(
+          SimpleLocalVarDecl(
+           c
+          ) [SimpleLocalVarDecl]
+        ) [SingleLocalVarDeclaration]
+      ) [HasLocalVarDeclarations]
+      Type(
+       int
+      ) [Type]
+      SingleLocalVarDeclaration(
+        SimpleLocalVarDecl(
+         p
+        ) [SimpleLocalVarDecl]
+      ) [SingleLocalVarDeclaration]
+    ) [HasLocalVarDeclarations]
+    StmtList(
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              NoStatement(
+              ) [NoStatement]
+              NoLabelStatement(
+                DesignatorStmt(
+                  AssignDesignator(
+                    AssignmentDesignatorOk(
+                      VarDesignator(
+                       b
+                      ) [VarDesignator]
+                    ) [AssignmentDesignatorOk]
+                    AssignmentExprOk(
+                      ExprAdditionList(
+                        MultipleFactorTerm(
+                          NewArrayFactor(
+                            Type(
+                             int
+                            ) [Type]
+                            ExprAdditionList(
+                              MultipleFactorTerm(
+                                ConstFactor(
+                                  NumberConst(
+                                   2
+                                  ) [NumberConst]
+                                ) [ConstFactor]
+                                NoMullopList(
+                                ) [NoMullopList]
+                              ) [MultipleFactorTerm]
+                              NoAdditionList(
+                              ) [NoAdditionList]
+                            ) [ExprAdditionList]
+                          ) [NewArrayFactor]
+                          NoMullopList(
+                          ) [NoMullopList]
+                        ) [MultipleFactorTerm]
+                        NoAdditionList(
+                        ) [NoAdditionList]
+                      ) [ExprAdditionList]
+                    ) [AssignmentExprOk]
+                  ) [AssignDesignator]
+                ) [DesignatorStmt]
+              ) [NoLabelStatement]
+            ) [StmtList]
+            NoLabelStatement(
+              DesignatorStmt(
+                AssignDesignator(
+                  AssignmentDesignatorOk(
+                    ArrayDesignator(
+                      ArrayName(
+                       b
+                      ) [ArrayName]
+                      ExprAdditionList(
+                        MultipleFactorTerm(
+                          ConstFactor(
+                            NumberConst(
+                             0
+                            ) [NumberConst]
+                          ) [ConstFactor]
+                          NoMullopList(
+                          ) [NoMullopList]
+                        ) [MultipleFactorTerm]
+                        NoAdditionList(
+                        ) [NoAdditionList]
+                      ) [ExprAdditionList]
+                    ) [ArrayDesignator]
+                  ) [AssignmentDesignatorOk]
+                  AssignmentExprOk(
+                    ExprAdditionList(
+                      MultipleFactorTerm(
+                        ConstFactor(
+                          NumberConst(
+                           2
+                          ) [NumberConst]
+                        ) [ConstFactor]
+                        NoMullopList(
+                        ) [NoMullopList]
+                      ) [MultipleFactorTerm]
+                      NoAdditionList(
+                      ) [NoAdditionList]
+                    ) [ExprAdditionList]
+                  ) [AssignmentExprOk]
+                ) [AssignDesignator]
+              ) [DesignatorStmt]
+            ) [NoLabelStatement]
+          ) [StmtList]
+          NoLabelStatement(
+            DesignatorStmt(
+              AssignDesignator(
+                AssignmentDesignatorOk(
+                  VarDesignator(
+                   c
+                  ) [VarDesignator]
+                ) [AssignmentDesignatorOk]
+                AssignmentExprOk(
+                  ExprAdditionList(
+                    MultipleFactorTerm(
+                      DesignatorFactor(
+                        ArrayDesignator(
+                          ArrayName(
+                           b
+                          ) [ArrayName]
+                          ExprAdditionList(
+                            MultipleFactorTerm(
+                              ConstFactor(
+                                NumberConst(
+                                 0
+                                ) [NumberConst]
+                              ) [ConstFactor]
+                              NoMullopList(
+                              ) [NoMullopList]
+                            ) [MultipleFactorTerm]
+                            NoAdditionList(
+                            ) [NoAdditionList]
+                          ) [ExprAdditionList]
+                        ) [ArrayDesignator]
+                      ) [DesignatorFactor]
+                      NoMullopList(
+                      ) [NoMullopList]
+                    ) [MultipleFactorTerm]
+                    NoAdditionList(
+                    ) [NoAdditionList]
+                  ) [ExprAdditionList]
+                ) [AssignmentExprOk]
+              ) [AssignDesignator]
+            ) [DesignatorStmt]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          DesignatorStmt(
+            AssignDesignator(
+              AssignmentDesignatorOk(
+                VarDesignator(
+                 p
+                ) [VarDesignator]
+              ) [AssignmentDesignatorOk]
+              AssignmentExprOk(
+                ExprAdditionList(
+                  MultipleFactorTerm(
+                    DesignatorFactor(
+                      VarDesignator(
+                       c
+                      ) [VarDesignator]
+                    ) [DesignatorFactor]
+                    NoMullopList(
+                    ) [NoMullopList]
+                  ) [MultipleFactorTerm]
+                  AdditinList(
+                    AdditinList(
+                      AdditinList(
+                        NoAdditionList(
+                        ) [NoAdditionList]
+                        Plus(
+                        ) [Plus]
+                        MultipleFactorTerm(
+                          DesignatorFactor(
+                            ArrayDesignator(
+                              ArrayName(
+                               b
+                              ) [ArrayName]
+                              ExprAdditionList(
+                                MultipleFactorTerm(
+                                  ConstFactor(
+                                    NumberConst(
+                                     0
+                                    ) [NumberConst]
+                                  ) [ConstFactor]
+                                  NoMullopList(
+                                  ) [NoMullopList]
+                                ) [MultipleFactorTerm]
+                                NoAdditionList(
+                                ) [NoAdditionList]
+                              ) [ExprAdditionList]
+                            ) [ArrayDesignator]
+                          ) [DesignatorFactor]
+                          NoMullopList(
+                          ) [NoMullopList]
+                        ) [MultipleFactorTerm]
+                      ) [AdditinList]
+                      Plus(
+                      ) [Plus]
+                      MultipleFactorTerm(
+                        ConstFactor(
+                          NumberConst(
+                           4
+                          ) [NumberConst]
+                        ) [ConstFactor]
+                        NoMullopList(
+                        ) [NoMullopList]
+                      ) [MultipleFactorTerm]
+                    ) [AdditinList]
+                    Minus(
+                    ) [Minus]
+                    MultipleFactorTerm(
+                      ConstFactor(
+                        NumberConst(
+                         1
+                        ) [NumberConst]
+                      ) [ConstFactor]
+                      NoMullopList(
+                      ) [NoMullopList]
+                    ) [MultipleFactorTerm]
+                  ) [AdditinList]
+                ) [ExprAdditionList]
+              ) [AssignmentExprOk]
+            ) [AssignDesignator]
+          ) [DesignatorStmt]
+        ) [NoLabelStatement]
+      ) [StmtList]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              DesignatorFactor(
+                VarDesignator(
+                 p
+                ) [VarDesignator]
+              ) [DesignatorFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  16:45:10,844 - ===================================
+INFO  16:45:10,847 - otvoren scope za program na liniji 3
+INFO  16:45:10,847 - Deklarisana main metoda na liniji 5
+INFO  16:45:10,848 - otvoren scope za main na liniji 5
+INFO  16:45:10,848 - Deklarisana globalna promenljiva b tipa Int[] na liniji 6
+INFO  16:45:10,854 - Deklarisana lokalna promenljiva c tipa Int na liniji 7
+INFO  16:45:10,854 - Deklarisana lokalna promenljiva p tipa Int na liniji 8
+INFO  16:45:10,855 - Pretraga b tipa Array na liniji 11
+INFO  16:45:10,855 - Pretraga c tipa Int na liniji 12
+INFO  16:45:10,855 - Pretraga b tipa Array na liniji 12
+INFO  16:45:10,855 - Pretraga p tipa Int na liniji 13
+INFO  16:45:10,855 - Pretraga c tipa Int na liniji 13
+INFO  16:45:10,855 - Pretraga b tipa Array na liniji 13
+INFO  16:45:10,855 - Pretraga p tipa Int na liniji 16
+INFO  16:45:10,855 - zatvoren scope za main na liniji 5
+INFO  16:45:10,855 - zatvoren scope za program na liniji 3
+INFO  16:45:10,855 - Sintaksna analiza uspesno zavrsena!
+INFO  16:45:10,855 - Semanticka analiza uspesno zavrsena!
+INFO  16:45:10,861 - Generisanje koda uspesno zavrseno!

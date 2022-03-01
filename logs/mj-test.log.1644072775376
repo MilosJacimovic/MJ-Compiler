@@ -1,0 +1,87 @@
+INFO  15:52:14,863 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  15:52:14,902 - #2 program
+INFO  15:52:14,902 - #48 test301
+INFO  15:52:14,902 - #7 {
+INFO  15:52:14,903 - #8 void
+INFO  15:52:14,903 - #48 main
+INFO  15:52:14,903 - #22 (
+INFO  15:52:14,904 - #23 )
+INFO  15:52:14,904 - #48 int
+INFO  15:52:14,904 - #48 b
+INFO  15:52:14,905 - #24 [
+INFO  15:52:14,905 - #25 ]
+INFO  15:52:14,905 - #20 ;
+INFO  15:52:14,905 - #7 {
+INFO  15:52:14,906 - #48 b
+INFO  15:52:14,906 - #24 [
+INFO  15:52:14,907 - #50 0
+INFO  15:52:14,907 - #25 ]
+INFO  15:52:14,908 - #17 ++
+INFO  15:52:14,909 - #20 ;
+INFO  15:52:14,909 - #10 }
+INFO  15:52:14,909 - #10 }
+INFO  15:52:14,924 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoGlobalDeclarationList(
+  ) [NoGlobalDeclarationList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    HasLocalVarDeclarations(
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Type(
+       int
+      ) [Type]
+      SingleLocalVarDeclaration(
+        ArrayLocalVarDecl(
+         b
+        ) [ArrayLocalVarDecl]
+      ) [SingleLocalVarDeclaration]
+    ) [HasLocalVarDeclarations]
+    StmtList(
+      NoStatement(
+      ) [NoStatement]
+      NoLabelStatement(
+        DesignatorStmt(
+          IncrementDesignator(
+            ArrayDesignator(
+              ArrayName(
+               b
+              ) [ArrayName]
+              ExprAdditionList(
+                MultipleFactorTerm(
+                  ConstFactor(
+                    NumberConst(
+                     0
+                    ) [NumberConst]
+                  ) [ConstFactor]
+                  NoMullopList(
+                  ) [NoMullopList]
+                ) [MultipleFactorTerm]
+                NoAdditionList(
+                ) [NoAdditionList]
+              ) [ExprAdditionList]
+            ) [ArrayDesignator]
+          ) [IncrementDesignator]
+        ) [DesignatorStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  15:52:14,927 - ===================================
+INFO  15:52:14,931 - otvoren scope za program na liniji 3
+INFO  15:52:14,931 - Deklarisana main metoda na liniji 5
+INFO  15:52:14,931 - otvoren scope za main na liniji 5
+INFO  15:52:14,931 - Deklarisana globalna promenljiva b tipa Int[] na liniji 6
+INFO  15:52:14,931 - Pretraga b tipa Array na liniji 9
+INFO  15:52:14,931 - zatvoren scope za main na liniji 5
+INFO  15:52:14,931 - zatvoren scope za program na liniji 3
+INFO  15:52:14,932 - Sintaksna analiza uspesno zavrsena!
+INFO  15:52:14,932 - Semanticka analiza uspesno zavrsena!
+INFO  15:52:14,937 - Generisanje koda uspesno zavrseno!

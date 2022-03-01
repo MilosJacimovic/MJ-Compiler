@@ -1,0 +1,58 @@
+INFO  17:38:49,266 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  17:38:49,301 - #2 program
+INFO  17:38:49,301 - #48 test301
+INFO  17:38:49,302 - #26 const
+INFO  17:38:49,303 - #48 int
+INFO  17:38:49,303 - #48 nula
+INFO  17:38:49,303 - #16 =
+INFO  17:38:49,303 - #50 0
+INFO  17:38:49,303 - #20 ;
+INFO  17:38:49,304 - #7 {
+INFO  17:38:49,304 - #8 void
+INFO  17:38:49,304 - #48 main
+INFO  17:38:49,304 - #22 (
+INFO  17:38:49,305 - #23 )
+INFO  17:38:49,305 - #7 {
+INFO  17:38:49,305 - #10 }
+INFO  17:38:49,306 - #10 }
+INFO  17:38:49,324 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclList(
+    NoGlobalDeclarationList(
+    ) [NoGlobalDeclarationList]
+    ConstDecl(
+      MultipleConstDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclarations(
+          SingleConstDecl(
+           nula
+            NumberConst(
+             0
+            ) [NumberConst]
+          ) [SingleConstDecl]
+        ) [SingleConstDeclarations]
+      ) [MultipleConstDeclarations]
+    ) [ConstDecl]
+  ) [GlobalDeclList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    NoLocalVarDeclarations(
+    ) [NoLocalVarDeclarations]
+    NoStatement(
+    ) [NoStatement]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  17:38:49,324 - ===================================
+INFO  17:38:49,327 - Deklarisana konstanta nula tipa Int na liniji 5
+INFO  17:38:49,327 - Deklarisana main metoda na liniji 8
+INFO  17:38:49,327 - Sintaksna analiza uspesno zavrsena!
+INFO  17:38:49,327 - Semanticka analiza uspesno zavrsena!
+INFO  17:38:49,328 - ===================================

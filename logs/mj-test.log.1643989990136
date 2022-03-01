@@ -1,0 +1,110 @@
+INFO  16:53:03,685 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  16:53:03,719 - #2 program
+INFO  16:53:03,720 - #48 test301
+INFO  16:53:03,720 - #26 const
+INFO  16:53:03,721 - #48 int
+INFO  16:53:03,721 - #48 cst
+INFO  16:53:03,721 - #16 =
+INFO  16:53:03,722 - #50 2
+INFO  16:53:03,722 - #20 ;
+INFO  16:53:03,722 - #7 {
+INFO  16:53:03,722 - #8 void
+INFO  16:53:03,722 - #48 main
+INFO  16:53:03,722 - #22 (
+INFO  16:53:03,723 - #23 )
+INFO  16:53:03,723 - #7 {
+INFO  16:53:03,723 - #4 print
+INFO  16:53:03,724 - #22 (
+INFO  16:53:03,724 - #50 1234567890
+INFO  16:53:03,724 - #23 )
+INFO  16:53:03,726 - #20 ;
+INFO  16:53:03,726 - #4 print
+INFO  16:53:03,726 - #22 (
+INFO  16:53:03,727 - #48 b
+INFO  16:53:03,727 - #23 )
+INFO  16:53:03,727 - #20 ;
+INFO  16:53:03,727 - #10 }
+INFO  16:53:03,727 - #10 }
+INFO  16:53:03,740 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclList(
+    NoGlobalDeclarationList(
+    ) [NoGlobalDeclarationList]
+    ConstDecl(
+      MultipleConstDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclarations(
+          SingleConstDecl(
+           cst
+            NumberConst(
+             2
+            ) [NumberConst]
+          ) [SingleConstDecl]
+        ) [SingleConstDeclarations]
+      ) [MultipleConstDeclarations]
+    ) [ConstDecl]
+  ) [GlobalDeclList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    NoLocalVarDeclarations(
+    ) [NoLocalVarDeclarations]
+    StmtList(
+      StmtList(
+        NoStatement(
+        ) [NoStatement]
+        NoLabelStatement(
+          PrintStmt(
+            ExprAdditionList(
+              MultipleFactorTerm(
+                ConstFactor(
+                  NumberConst(
+                   1234567890
+                  ) [NumberConst]
+                ) [ConstFactor]
+                NoMullopList(
+                ) [NoMullopList]
+              ) [MultipleFactorTerm]
+              NoAdditionList(
+              ) [NoAdditionList]
+            ) [ExprAdditionList]
+            NoPrintOptions(
+            ) [NoPrintOptions]
+          ) [PrintStmt]
+        ) [NoLabelStatement]
+      ) [StmtList]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              DesignatorFactor(
+                VarDesignator(
+                 b
+                ) [VarDesignator]
+              ) [DesignatorFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  16:53:03,740 - ===================================
+INFO  16:53:03,743 - otvoren scope za program na liniji 3
+INFO  16:53:03,744 - Deklarisana konstanta cst tipa Int na liniji 4
+INFO  16:53:03,744 - Deklarisana main metoda na liniji 9
+INFO  16:53:03,744 - otvoren scope za main na liniji 9
+ERROR 16:53:03,744 - Promenljiva b nije deklarisana na liniji 13

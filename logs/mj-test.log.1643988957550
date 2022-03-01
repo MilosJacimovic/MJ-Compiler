@@ -1,0 +1,64 @@
+INFO  16:31:32,530 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  16:31:32,563 - #2 program
+INFO  16:31:32,564 - #48 test301
+INFO  16:31:32,564 - #7 {
+INFO  16:31:32,565 - #8 void
+INFO  16:31:32,565 - #48 main
+INFO  16:31:32,565 - #22 (
+INFO  16:31:32,566 - #23 )
+INFO  16:31:32,566 - #7 {
+INFO  16:31:32,566 - #4 print
+INFO  16:31:32,567 - #22 (
+INFO  16:31:32,567 - #50 1
+INFO  16:31:32,567 - #23 )
+INFO  16:31:32,568 - #20 ;
+INFO  16:31:32,568 - #10 }
+INFO  16:31:32,569 - #10 }
+INFO  16:31:32,586 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoGlobalDeclarationList(
+  ) [NoGlobalDeclarationList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    NoLocalVarDeclarations(
+    ) [NoLocalVarDeclarations]
+    StmtList(
+      NoStatement(
+      ) [NoStatement]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              ConstFactor(
+                NumberConst(
+                 1
+                ) [NumberConst]
+              ) [ConstFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  16:31:32,589 - ===================================
+INFO  16:31:32,592 - otvoren scope za program na liniji 3
+INFO  16:31:32,592 - Deklarisana main metoda na liniji 7
+INFO  16:31:32,592 - otvoren scope za main na liniji 7
+INFO  16:31:32,593 - zatvoren scope za main na liniji 7
+INFO  16:31:32,593 - zatvoren scope za program na liniji 3
+INFO  16:31:32,593 - Sintaksna analiza uspesno zavrsena!
+INFO  16:31:32,593 - Semanticka analiza uspesno zavrsena!
+INFO  16:31:32,598 - Generisanje koda uspesno zavrseno!

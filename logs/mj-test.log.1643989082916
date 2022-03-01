@@ -1,0 +1,64 @@
+INFO  16:37:51,528 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  16:37:51,562 - #2 program
+INFO  16:37:51,562 - #48 test301
+INFO  16:37:51,562 - #7 {
+INFO  16:37:51,563 - #8 void
+INFO  16:37:51,564 - #48 main
+INFO  16:37:51,564 - #22 (
+INFO  16:37:51,564 - #23 )
+INFO  16:37:51,564 - #7 {
+INFO  16:37:51,565 - #4 print
+INFO  16:37:51,565 - #22 (
+INFO  16:37:51,565 - #50 10
+INFO  16:37:51,565 - #23 )
+INFO  16:37:51,567 - #20 ;
+INFO  16:37:51,567 - #10 }
+INFO  16:37:51,567 - #10 }
+INFO  16:37:51,579 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoGlobalDeclarationList(
+  ) [NoGlobalDeclarationList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    NoLocalVarDeclarations(
+    ) [NoLocalVarDeclarations]
+    StmtList(
+      NoStatement(
+      ) [NoStatement]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              ConstFactor(
+                NumberConst(
+                 10
+                ) [NumberConst]
+              ) [ConstFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  16:37:51,581 - ===================================
+INFO  16:37:51,583 - otvoren scope za program na liniji 3
+INFO  16:37:51,584 - Deklarisana main metoda na liniji 7
+INFO  16:37:51,584 - otvoren scope za main na liniji 7
+INFO  16:37:51,584 - zatvoren scope za main na liniji 7
+INFO  16:37:51,584 - zatvoren scope za program na liniji 3
+INFO  16:37:51,584 - Sintaksna analiza uspesno zavrsena!
+INFO  16:37:51,584 - Semanticka analiza uspesno zavrsena!
+INFO  16:37:51,589 - Generisanje koda uspesno zavrseno!

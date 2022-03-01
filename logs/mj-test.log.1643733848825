@@ -1,0 +1,45 @@
+INFO  17:43:35,948 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  17:43:35,990 - #2 program
+INFO  17:43:35,991 - #48 test301
+INFO  17:43:35,991 - #26 const
+INFO  17:43:35,992 - #48 int
+INFO  17:43:35,992 - #48 nula
+INFO  17:43:35,993 - #16 =
+INFO  17:43:35,993 - #50 0
+INFO  17:43:35,993 - #20 ;
+INFO  17:43:35,993 - #26 const
+INFO  17:43:35,994 - #48 int
+INFO  17:43:35,994 - #48 jedan
+INFO  17:43:35,994 - #16 =
+INFO  17:43:35,994 - #50 1
+INFO  17:43:35,994 - #20 ;
+INFO  17:43:35,994 - #26 const
+INFO  17:43:35,994 - #48 int
+INFO  17:43:35,994 - #48 pet
+INFO  17:43:35,994 - #16 =
+INFO  17:43:35,994 - #50 5
+INFO  17:43:35,995 - #20 ;
+INFO  17:43:35,995 - #48 int
+INFO  17:43:35,995 - #48 glint
+INFO  17:43:35,995 - #20 ;
+INFO  17:43:35,995 - #48 int
+INFO  17:43:35,996 - #48 niz
+INFO  17:43:35,996 - #24 [
+INFO  17:43:35,996 - #25 ]
+INFO  17:43:35,996 - #20 ;
+INFO  17:43:35,996 - #48 char
+INFO  17:43:35,996 - #48 nizch
+INFO  17:43:35,996 - #24 [
+INFO  17:43:35,996 - #25 ]
+INFO  17:43:35,996 - #20 ;
+INFO  17:43:35,996 - #26 const
+INFO  17:43:35,997 - #48 bool
+INFO  17:43:35,997 - #48 cstbl
+INFO  17:43:35,997 - #16 =
+INFO  17:43:35,997 - #49 true
+INFO  17:43:35,997 - #20 ;
+INFO  17:43:35,997 - #7 {
+INFO  17:43:35,997 - #10 }
+ERROR 17:43:35,997 - 
+Sintaksna greska na liniji 16
+ERROR 17:43:35,998 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 19

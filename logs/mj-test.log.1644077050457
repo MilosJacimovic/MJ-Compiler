@@ -1,0 +1,37 @@
+INFO  17:03:57,044 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  17:03:57,085 - #2 program
+INFO  17:03:57,086 - #48 test301
+INFO  17:03:57,086 - #7 {
+INFO  17:03:57,087 - #8 void
+INFO  17:03:57,087 - #48 main
+INFO  17:03:57,087 - #22 (
+INFO  17:03:57,088 - #23 )
+INFO  17:03:57,088 - #48 bool
+INFO  17:03:57,089 - #48 b1
+INFO  17:03:57,089 - #20 ;
+INFO  17:03:57,090 - #48 b2
+INFO  17:03:57,090 - #20 ;
+ERROR 17:03:57,090 - 
+Sintaksna greska na liniji 6
+INFO  17:03:57,090 - #7 {
+INFO  17:03:57,090 - #48 b1
+INFO  17:03:57,090 - #16 =
+INFO  17:03:57,097 - #49 true
+INFO  17:03:57,098 - #20 ;
+INFO  17:03:57,098 - #48 b2
+INFO  17:03:57,098 - #16 =
+INFO  17:03:57,098 - #49 false
+INFO  17:03:57,100 - #20 ;
+INFO  17:03:57,100 - #4 print
+INFO  17:03:57,100 - #22 (
+INFO  17:03:57,100 - #48 b1
+INFO  17:03:57,100 - #23 )
+INFO  17:03:57,100 - #20 ;
+INFO  17:03:57,100 - #4 print
+INFO  17:03:57,100 - #22 (
+INFO  17:03:57,100 - #48 b2
+INFO  17:03:57,100 - #23 )
+INFO  17:03:57,100 - #20 ;
+INFO  17:03:57,100 - #10 }
+INFO  17:03:57,101 - #10 }
+ERROR 17:03:57,101 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 19

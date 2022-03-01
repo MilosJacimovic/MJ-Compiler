@@ -1,0 +1,567 @@
+INFO  17:38:12,933 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  17:38:12,966 - #2 program
+INFO  17:38:12,966 - #48 p
+INFO  17:38:12,966 - #26 const
+INFO  17:38:12,967 - #48 int
+INFO  17:38:12,967 - #48 size
+INFO  17:38:12,968 - #16 =
+INFO  17:38:12,968 - #50 10
+INFO  17:38:12,968 - #21 ,
+INFO  17:38:12,968 - #48 c
+INFO  17:38:12,968 - #16 =
+INFO  17:38:12,968 - #50 5
+INFO  17:38:12,969 - #20 ;
+INFO  17:38:12,969 - #48 char
+INFO  17:38:12,969 - #48 ch
+INFO  17:38:12,969 - #20 ;
+INFO  17:38:12,969 - #48 int
+INFO  17:38:12,970 - #48 v
+INFO  17:38:12,970 - #20 ;
+INFO  17:38:12,970 - #48 int
+INFO  17:38:12,970 - #48 s
+INFO  17:38:12,970 - #21 ,
+INFO  17:38:12,970 - #48 z
+INFO  17:38:12,973 - #24 [
+INFO  17:38:12,973 - #25 ]
+INFO  17:38:12,973 - #20 ;
+INFO  17:38:12,973 - #26 const
+INFO  17:38:12,974 - #48 int
+INFO  17:38:12,974 - #48 csi
+INFO  17:38:12,974 - #16 =
+INFO  17:38:12,974 - #50 5
+INFO  17:38:12,974 - #20 ;
+INFO  17:38:12,974 - #7 {
+INFO  17:38:12,974 - #8 void
+INFO  17:38:12,974 - #48 main
+INFO  17:38:12,974 - #22 (
+INFO  17:38:12,975 - #23 )
+INFO  17:38:12,975 - #48 int
+INFO  17:38:12,975 - #48 x
+INFO  17:38:12,975 - #21 ,
+INFO  17:38:12,976 - #48 i
+INFO  17:38:12,976 - #20 ;
+INFO  17:38:12,976 - #48 char
+INFO  17:38:12,976 - #48 ch2
+INFO  17:38:12,976 - #20 ;
+INFO  17:38:12,976 - #48 int
+INFO  17:38:12,976 - #48 nz2
+INFO  17:38:12,976 - #24 [
+INFO  17:38:12,976 - #25 ]
+INFO  17:38:12,977 - #21 ,
+INFO  17:38:12,977 - #48 val
+INFO  17:38:12,977 - #21 ,
+INFO  17:38:12,977 - #48 nz
+INFO  17:38:12,977 - #20 ;
+INFO  17:38:12,977 - #7 {
+INFO  17:38:12,978 - #48 size
+INFO  17:38:12,978 - #16 =
+INFO  17:38:12,978 - #50 5
+INFO  17:38:12,978 - #20 ;
+INFO  17:38:12,979 - #48 z
+INFO  17:38:12,979 - #16 =
+INFO  17:38:12,979 - #3 new
+INFO  17:38:12,980 - #48 char
+INFO  17:38:12,980 - #24 [
+INFO  17:38:12,980 - #48 size
+INFO  17:38:12,980 - #25 ]
+INFO  17:38:12,980 - #20 ;
+INFO  17:38:12,980 - #48 nz2
+INFO  17:38:12,980 - #16 =
+INFO  17:38:12,980 - #3 new
+INFO  17:38:12,985 - #48 int
+INFO  17:38:12,985 - #24 [
+INFO  17:38:12,986 - #48 ch
+INFO  17:38:12,986 - #25 ]
+INFO  17:38:12,986 - #20 ;
+INFO  17:38:12,986 - #5 read
+INFO  17:38:12,986 - #22 (
+INFO  17:38:12,986 - #48 x
+INFO  17:38:12,986 - #23 )
+INFO  17:38:12,986 - #20 ;
+INFO  17:38:12,986 - #9 goto
+INFO  17:38:12,986 - #48 skip
+INFO  17:38:12,986 - #20 ;
+INFO  17:38:12,987 - #48 skip
+INFO  17:38:12,987 - #19 :
+INFO  17:38:12,987 - #48 i
+INFO  17:38:12,987 - #16 =
+INFO  17:38:12,987 - #50 0
+INFO  17:38:12,987 - #20 ;
+INFO  17:38:12,988 - #48 i
+INFO  17:38:12,988 - #17 ++
+INFO  17:38:12,988 - #20 ;
+INFO  17:38:12,988 - #5 read
+INFO  17:38:12,989 - #22 (
+INFO  17:38:12,989 - #48 i
+INFO  17:38:12,989 - #23 )
+INFO  17:38:12,989 - #20 ;
+INFO  17:38:12,989 - #48 x
+INFO  17:38:12,989 - #16 =
+INFO  17:38:12,989 - #48 i
+INFO  17:38:12,989 - #20 ;
+INFO  17:38:12,990 - #48 val
+INFO  17:38:12,990 - #16 =
+INFO  17:38:12,990 - #48 nz2
+INFO  17:38:12,990 - #24 [
+INFO  17:38:12,991 - #48 x
+INFO  17:38:12,991 - #25 ]
+INFO  17:38:12,991 - #11 +
+INFO  17:38:12,991 - #50 1
+INFO  17:38:12,992 - #20 ;
+INFO  17:38:12,992 - #4 print
+INFO  17:38:12,992 - #22 (
+INFO  17:38:12,992 - #48 nz
+INFO  17:38:12,992 - #24 [
+INFO  17:38:12,992 - #50 0
+INFO  17:38:12,992 - #25 ]
+INFO  17:38:12,992 - #21 ,
+INFO  17:38:12,993 - #50 1
+INFO  17:38:12,993 - #23 )
+INFO  17:38:12,993 - #20 ;
+INFO  17:38:12,993 - #5 read
+INFO  17:38:12,993 - #22 (
+INFO  17:38:12,993 - #48 x
+INFO  17:38:12,993 - #23 )
+INFO  17:38:12,993 - #20 ;
+INFO  17:38:12,993 - #10 }
+INFO  17:38:12,993 - #10 }
+INFO  17:38:13,022 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  GlobalDeclList(
+    GlobalDeclList(
+      GlobalDeclList(
+        GlobalDeclList(
+          GlobalDeclList(
+            NoGlobalDeclarationList(
+            ) [NoGlobalDeclarationList]
+            ConstDecl(
+              MultipleConstDeclarations(
+                Type(
+                 int
+                ) [Type]
+                MultipleConstDecl(
+                  SingleConstDeclarations(
+                    SingleConstDecl(
+                     size
+                      NumberConst(
+                       10
+                      ) [NumberConst]
+                    ) [SingleConstDecl]
+                  ) [SingleConstDeclarations]
+                  SingleConstDecl(
+                   c
+                    NumberConst(
+                     5
+                    ) [NumberConst]
+                  ) [SingleConstDecl]
+                ) [MultipleConstDecl]
+              ) [MultipleConstDeclarations]
+            ) [ConstDecl]
+          ) [GlobalDeclList]
+          VarDecl(
+            MultipleVarDecls(
+              Type(
+               char
+              ) [Type]
+              SingleVarDecl(
+                SimpleVarDecl(
+                 ch
+                ) [SimpleVarDecl]
+              ) [SingleVarDecl]
+            ) [MultipleVarDecls]
+          ) [VarDecl]
+        ) [GlobalDeclList]
+        VarDecl(
+          MultipleVarDecls(
+            Type(
+             int
+            ) [Type]
+            SingleVarDecl(
+              SimpleVarDecl(
+               v
+              ) [SimpleVarDecl]
+            ) [SingleVarDecl]
+          ) [MultipleVarDecls]
+        ) [VarDecl]
+      ) [GlobalDeclList]
+      VarDecl(
+        MultipleVarDecls(
+          Type(
+           int
+          ) [Type]
+          MultipleVarDeclList(
+            SingleVarDecl(
+              SimpleVarDecl(
+               s
+              ) [SimpleVarDecl]
+            ) [SingleVarDecl]
+            ArrayVarDecl(
+             z
+            ) [ArrayVarDecl]
+          ) [MultipleVarDeclList]
+        ) [MultipleVarDecls]
+      ) [VarDecl]
+    ) [GlobalDeclList]
+    ConstDecl(
+      MultipleConstDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclarations(
+          SingleConstDecl(
+           csi
+            NumberConst(
+             5
+            ) [NumberConst]
+          ) [SingleConstDecl]
+        ) [SingleConstDeclarations]
+      ) [MultipleConstDeclarations]
+    ) [ConstDecl]
+  ) [GlobalDeclList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    HasLocalVarDeclarations(
+      HasLocalVarDeclarations(
+        HasLocalVarDeclarations(
+          NoLocalVarDeclarations(
+          ) [NoLocalVarDeclarations]
+          Type(
+           int
+          ) [Type]
+          MultipleLocalVarDecls(
+            SingleLocalVarDeclaration(
+              SimpleLocalVarDecl(
+               x
+              ) [SimpleLocalVarDecl]
+            ) [SingleLocalVarDeclaration]
+            SimpleLocalVarDecl(
+             i
+            ) [SimpleLocalVarDecl]
+          ) [MultipleLocalVarDecls]
+        ) [HasLocalVarDeclarations]
+        Type(
+         char
+        ) [Type]
+        SingleLocalVarDeclaration(
+          SimpleLocalVarDecl(
+           ch2
+          ) [SimpleLocalVarDecl]
+        ) [SingleLocalVarDeclaration]
+      ) [HasLocalVarDeclarations]
+      Type(
+       int
+      ) [Type]
+      MultipleLocalVarDecls(
+        MultipleLocalVarDecls(
+          SingleLocalVarDeclaration(
+            ArrayLocalVarDecl(
+             nz2
+            ) [ArrayLocalVarDecl]
+          ) [SingleLocalVarDeclaration]
+          SimpleLocalVarDecl(
+           val
+          ) [SimpleLocalVarDecl]
+        ) [MultipleLocalVarDecls]
+        SimpleLocalVarDecl(
+         nz
+        ) [SimpleLocalVarDecl]
+      ) [MultipleLocalVarDecls]
+    ) [HasLocalVarDeclarations]
+    StmtList(
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              StmtList(
+                StmtList(
+                  StmtList(
+                    StmtList(
+                      StmtList(
+                        StmtList(
+                          StmtList(
+                            NoStatement(
+                            ) [NoStatement]
+                            NoLabelStatement(
+                              DesignatorStmt(
+                                AssignDesignator(
+                                  AssignmentDesignatorOk(
+                                    VarDesignator(
+                                     size
+                                    ) [VarDesignator]
+                                  ) [AssignmentDesignatorOk]
+                                  AssignmentExprOk(
+                                    SingleTermExpr(
+                                      SingleFactorTerm(
+                                        ConstFactor(
+                                          NumberConst(
+                                           5
+                                          ) [NumberConst]
+                                        ) [ConstFactor]
+                                      ) [SingleFactorTerm]
+                                    ) [SingleTermExpr]
+                                  ) [AssignmentExprOk]
+                                ) [AssignDesignator]
+                              ) [DesignatorStmt]
+                            ) [NoLabelStatement]
+                          ) [StmtList]
+                          NoLabelStatement(
+                            DesignatorStmt(
+                              AssignDesignator(
+                                AssignmentDesignatorOk(
+                                  VarDesignator(
+                                   z
+                                  ) [VarDesignator]
+                                ) [AssignmentDesignatorOk]
+                                AssignmentExprOk(
+                                  SingleTermExpr(
+                                    SingleFactorTerm(
+                                      NewArrayFactor(
+                                        Type(
+                                         char
+                                        ) [Type]
+                                        SingleTermExpr(
+                                          SingleFactorTerm(
+                                            DesignatorFactor(
+                                              VarDesignator(
+                                               size
+                                              ) [VarDesignator]
+                                            ) [DesignatorFactor]
+                                          ) [SingleFactorTerm]
+                                        ) [SingleTermExpr]
+                                      ) [NewArrayFactor]
+                                    ) [SingleFactorTerm]
+                                  ) [SingleTermExpr]
+                                ) [AssignmentExprOk]
+                              ) [AssignDesignator]
+                            ) [DesignatorStmt]
+                          ) [NoLabelStatement]
+                        ) [StmtList]
+                        NoLabelStatement(
+                          DesignatorStmt(
+                            AssignDesignator(
+                              AssignmentDesignatorOk(
+                                VarDesignator(
+                                 nz2
+                                ) [VarDesignator]
+                              ) [AssignmentDesignatorOk]
+                              AssignmentExprOk(
+                                SingleTermExpr(
+                                  SingleFactorTerm(
+                                    NewArrayFactor(
+                                      Type(
+                                       int
+                                      ) [Type]
+                                      SingleTermExpr(
+                                        SingleFactorTerm(
+                                          DesignatorFactor(
+                                            VarDesignator(
+                                             ch
+                                            ) [VarDesignator]
+                                          ) [DesignatorFactor]
+                                        ) [SingleFactorTerm]
+                                      ) [SingleTermExpr]
+                                    ) [NewArrayFactor]
+                                  ) [SingleFactorTerm]
+                                ) [SingleTermExpr]
+                              ) [AssignmentExprOk]
+                            ) [AssignDesignator]
+                          ) [DesignatorStmt]
+                        ) [NoLabelStatement]
+                      ) [StmtList]
+                      NoLabelStatement(
+                        ReadStmt(
+                          VarDesignator(
+                           x
+                          ) [VarDesignator]
+                        ) [ReadStmt]
+                      ) [NoLabelStatement]
+                    ) [StmtList]
+                    NoLabelStatement(
+                      GotoStmt(
+                        Label(
+                         skip
+                        ) [Label]
+                      ) [GotoStmt]
+                    ) [NoLabelStatement]
+                  ) [StmtList]
+                  LabelStatement(
+                    Label(
+                     skip
+                    ) [Label]
+                    DesignatorStmt(
+                      AssignDesignator(
+                        AssignmentDesignatorOk(
+                          VarDesignator(
+                           i
+                          ) [VarDesignator]
+                        ) [AssignmentDesignatorOk]
+                        AssignmentExprOk(
+                          SingleTermExpr(
+                            SingleFactorTerm(
+                              ConstFactor(
+                                NumberConst(
+                                 0
+                                ) [NumberConst]
+                              ) [ConstFactor]
+                            ) [SingleFactorTerm]
+                          ) [SingleTermExpr]
+                        ) [AssignmentExprOk]
+                      ) [AssignDesignator]
+                    ) [DesignatorStmt]
+                  ) [LabelStatement]
+                ) [StmtList]
+                NoLabelStatement(
+                  DesignatorStmt(
+                    IncrementDesignator(
+                      VarDesignator(
+                       i
+                      ) [VarDesignator]
+                    ) [IncrementDesignator]
+                  ) [DesignatorStmt]
+                ) [NoLabelStatement]
+              ) [StmtList]
+              NoLabelStatement(
+                ReadStmt(
+                  VarDesignator(
+                   i
+                  ) [VarDesignator]
+                ) [ReadStmt]
+              ) [NoLabelStatement]
+            ) [StmtList]
+            NoLabelStatement(
+              DesignatorStmt(
+                AssignDesignator(
+                  AssignmentDesignatorOk(
+                    VarDesignator(
+                     x
+                    ) [VarDesignator]
+                  ) [AssignmentDesignatorOk]
+                  AssignmentExprOk(
+                    SingleTermExpr(
+                      SingleFactorTerm(
+                        DesignatorFactor(
+                          VarDesignator(
+                           i
+                          ) [VarDesignator]
+                        ) [DesignatorFactor]
+                      ) [SingleFactorTerm]
+                    ) [SingleTermExpr]
+                  ) [AssignmentExprOk]
+                ) [AssignDesignator]
+              ) [DesignatorStmt]
+            ) [NoLabelStatement]
+          ) [StmtList]
+          NoLabelStatement(
+            DesignatorStmt(
+              AssignDesignator(
+                AssignmentDesignatorOk(
+                  VarDesignator(
+                   val
+                  ) [VarDesignator]
+                ) [AssignmentDesignatorOk]
+                AssignmentExprOk(
+                  MultipleTermExpr(
+                    SingleTermExpr(
+                      SingleFactorTerm(
+                        DesignatorFactor(
+                          ArrayDesignator(
+                            ArrayName(
+                             nz2
+                            ) [ArrayName]
+                            SingleTermExpr(
+                              SingleFactorTerm(
+                                DesignatorFactor(
+                                  VarDesignator(
+                                   x
+                                  ) [VarDesignator]
+                                ) [DesignatorFactor]
+                              ) [SingleFactorTerm]
+                            ) [SingleTermExpr]
+                          ) [ArrayDesignator]
+                        ) [DesignatorFactor]
+                      ) [SingleFactorTerm]
+                    ) [SingleTermExpr]
+                    Plus(
+                    ) [Plus]
+                    SingleFactorTerm(
+                      ConstFactor(
+                        NumberConst(
+                         1
+                        ) [NumberConst]
+                      ) [ConstFactor]
+                    ) [SingleFactorTerm]
+                  ) [MultipleTermExpr]
+                ) [AssignmentExprOk]
+              ) [AssignDesignator]
+            ) [DesignatorStmt]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStmt(
+            SingleTermExpr(
+              SingleFactorTerm(
+                DesignatorFactor(
+                  ArrayDesignator(
+                    ArrayName(
+                     nz
+                    ) [ArrayName]
+                    SingleTermExpr(
+                      SingleFactorTerm(
+                        ConstFactor(
+                          NumberConst(
+                           0
+                          ) [NumberConst]
+                        ) [ConstFactor]
+                      ) [SingleFactorTerm]
+                    ) [SingleTermExpr]
+                  ) [ArrayDesignator]
+                ) [DesignatorFactor]
+              ) [SingleFactorTerm]
+            ) [SingleTermExpr]
+            HasPrintOption(
+             1
+            ) [HasPrintOption]
+          ) [PrintStmt]
+        ) [NoLabelStatement]
+      ) [StmtList]
+      NoLabelStatement(
+        ReadStmt(
+          VarDesignator(
+           x
+          ) [VarDesignator]
+        ) [ReadStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+  ) [MainMethodDecl]
+) [Program]
+INFO  17:38:13,024 - ===================================
+INFO  17:38:13,029 - Deklarisana konstanta size tipa Int na liniji 2
+INFO  17:38:13,030 - Deklarisana konstanta c tipa Int na liniji 2
+INFO  17:38:13,030 - Deklarisana globalna promenljiva ch tipa Char na liniji 3
+INFO  17:38:13,030 - Deklarisana globalna promenljiva v tipa Int na liniji 3
+INFO  17:38:13,030 - Deklarisana globalna promenljiva s tipa Int na liniji 4
+INFO  17:38:13,030 - Deklarisana globalna promenljiva z tipa Int na liniji 4
+INFO  17:38:13,030 - Deklarisana konstanta csi tipa Int na liniji 5
+INFO  17:38:13,030 - Deklarisana lokalna promenljiva x tipa Int na liniji 9
+INFO  17:38:13,030 - Deklarisana lokalna promenljiva i tipa Int na liniji 9
+INFO  17:38:13,030 - Deklarisana lokalna promenljiva ch2 tipa Char na liniji 9
+INFO  17:38:13,030 - Deklarisana lokalna promenljiva nz2 tipa Int na liniji 9
+INFO  17:38:13,030 - Deklarisana lokalna promenljiva val tipa Int na liniji 9
+INFO  17:38:13,030 - Deklarisana lokalna promenljiva nz tipa Int na liniji 9
+INFO  17:38:13,032 - Pretraga size tipa Int na liniji 11
+INFO  17:38:13,032 - Pretraga z tipa Array na liniji 13
+INFO  17:38:13,033 - Pretraga size tipa Int na liniji 13
+INFO  17:38:13,033 - Pretraga nz2 tipa Array na liniji 14
+INFO  17:38:13,033 - Pretraga ch tipa Char na liniji 14
+INFO  17:38:13,034 - Pretraga x tipa Int na liniji 15
+INFO  17:38:13,034 - Pretraga i tipa Int na liniji 21
+INFO  17:38:13,034 - Pretraga i tipa Int na liniji 22
+INFO  17:38:13,034 - Pretraga i tipa Int na liniji 23
+INFO  17:38:13,034 - Pretraga x tipa Int na liniji 25
+INFO  17:38:13,034 - Pretraga i tipa Int na liniji 25
+INFO  17:38:13,034 - Pretraga val tipa Int na liniji 27
+INFO  17:38:13,035 - Pretraga x tipa Int na liniji 27

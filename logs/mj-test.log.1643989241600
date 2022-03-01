@@ -1,0 +1,64 @@
+INFO  16:40:32,170 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  16:40:32,202 - #2 program
+INFO  16:40:32,202 - #48 test301
+INFO  16:40:32,202 - #7 {
+INFO  16:40:32,204 - #8 void
+INFO  16:40:32,204 - #48 main
+INFO  16:40:32,204 - #22 (
+INFO  16:40:32,204 - #23 )
+INFO  16:40:32,205 - #7 {
+INFO  16:40:32,205 - #4 print
+INFO  16:40:32,205 - #22 (
+INFO  16:40:32,206 - #50 1234567890
+INFO  16:40:32,206 - #23 )
+INFO  16:40:32,207 - #20 ;
+INFO  16:40:32,207 - #10 }
+INFO  16:40:32,208 - #10 }
+INFO  16:40:32,219 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoGlobalDeclarationList(
+  ) [NoGlobalDeclarationList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    NoLocalVarDeclarations(
+    ) [NoLocalVarDeclarations]
+    StmtList(
+      NoStatement(
+      ) [NoStatement]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              ConstFactor(
+                NumberConst(
+                 1234567890
+                ) [NumberConst]
+              ) [ConstFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  16:40:32,221 - ===================================
+INFO  16:40:32,224 - otvoren scope za program na liniji 3
+INFO  16:40:32,224 - Deklarisana main metoda na liniji 7
+INFO  16:40:32,224 - otvoren scope za main na liniji 7
+INFO  16:40:32,225 - zatvoren scope za main na liniji 7
+INFO  16:40:32,226 - zatvoren scope za program na liniji 3
+INFO  16:40:32,226 - Sintaksna analiza uspesno zavrsena!
+INFO  16:40:32,226 - Semanticka analiza uspesno zavrsena!
+INFO  16:40:32,232 - Generisanje koda uspesno zavrseno!

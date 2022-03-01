@@ -1,0 +1,295 @@
+INFO  17:42:26,945 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  17:42:26,985 - #2 program
+INFO  17:42:26,985 - #48 test301
+INFO  17:42:26,985 - #7 {
+INFO  17:42:26,986 - #8 void
+INFO  17:42:26,986 - #48 main
+INFO  17:42:26,986 - #22 (
+INFO  17:42:26,987 - #23 )
+INFO  17:42:26,987 - #48 int
+INFO  17:42:26,987 - #48 b2
+INFO  17:42:26,988 - #24 [
+INFO  17:42:26,988 - #25 ]
+INFO  17:42:26,988 - #20 ;
+INFO  17:42:26,988 - #7 {
+INFO  17:42:26,989 - #48 b2
+INFO  17:42:26,989 - #16 =
+INFO  17:42:26,990 - #3 new
+INFO  17:42:26,990 - #48 int
+INFO  17:42:26,990 - #24 [
+INFO  17:42:26,990 - #50 2
+INFO  17:42:26,990 - #25 ]
+INFO  17:42:26,991 - #20 ;
+INFO  17:42:26,992 - #48 b2
+INFO  17:42:26,994 - #24 [
+INFO  17:42:26,995 - #50 0
+INFO  17:42:26,995 - #25 ]
+INFO  17:42:26,995 - #16 =
+INFO  17:42:26,995 - #50 1
+INFO  17:42:26,995 - #20 ;
+INFO  17:42:26,995 - #48 b2
+INFO  17:42:26,995 - #24 [
+INFO  17:42:26,995 - #50 0
+INFO  17:42:26,995 - #25 ]
+INFO  17:42:26,995 - #16 =
+INFO  17:42:26,996 - #50 0
+INFO  17:42:26,996 - #20 ;
+INFO  17:42:26,996 - #4 print
+INFO  17:42:26,996 - #22 (
+INFO  17:42:26,996 - #48 b2
+INFO  17:42:26,996 - #24 [
+INFO  17:42:26,996 - #50 0
+INFO  17:42:26,996 - #25 ]
+INFO  17:42:26,996 - #23 )
+INFO  17:42:26,997 - #20 ;
+INFO  17:42:26,997 - #4 print
+INFO  17:42:26,998 - #22 (
+INFO  17:42:26,998 - #48 b2
+INFO  17:42:26,998 - #24 [
+INFO  17:42:26,998 - #50 1
+INFO  17:42:26,998 - #25 ]
+INFO  17:42:26,998 - #23 )
+INFO  17:42:26,998 - #20 ;
+INFO  17:42:26,998 - #10 }
+INFO  17:42:26,998 - #10 }
+INFO  17:42:27,020 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoGlobalDeclarationList(
+  ) [NoGlobalDeclarationList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    HasLocalVarDeclarations(
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Type(
+       int
+      ) [Type]
+      SingleLocalVarDeclaration(
+        ArrayLocalVarDecl(
+         b2
+        ) [ArrayLocalVarDecl]
+      ) [SingleLocalVarDeclaration]
+    ) [HasLocalVarDeclarations]
+    StmtList(
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              NoStatement(
+              ) [NoStatement]
+              NoLabelStatement(
+                DesignatorStmt(
+                  AssignDesignator(
+                    AssignmentDesignatorOk(
+                      VarDesignator(
+                       b2
+                      ) [VarDesignator]
+                    ) [AssignmentDesignatorOk]
+                    AssignmentExprOk(
+                      ExprAdditionList(
+                        MultipleFactorTerm(
+                          NewArrayFactor(
+                            Type(
+                             int
+                            ) [Type]
+                            ExprAdditionList(
+                              MultipleFactorTerm(
+                                ConstFactor(
+                                  NumberConst(
+                                   2
+                                  ) [NumberConst]
+                                ) [ConstFactor]
+                                NoMullopList(
+                                ) [NoMullopList]
+                              ) [MultipleFactorTerm]
+                              NoAdditionList(
+                              ) [NoAdditionList]
+                            ) [ExprAdditionList]
+                          ) [NewArrayFactor]
+                          NoMullopList(
+                          ) [NoMullopList]
+                        ) [MultipleFactorTerm]
+                        NoAdditionList(
+                        ) [NoAdditionList]
+                      ) [ExprAdditionList]
+                    ) [AssignmentExprOk]
+                  ) [AssignDesignator]
+                ) [DesignatorStmt]
+              ) [NoLabelStatement]
+            ) [StmtList]
+            NoLabelStatement(
+              DesignatorStmt(
+                AssignDesignator(
+                  AssignmentDesignatorOk(
+                    ArrayDesignator(
+                      ArrayName(
+                       b2
+                      ) [ArrayName]
+                      ExprAdditionList(
+                        MultipleFactorTerm(
+                          ConstFactor(
+                            NumberConst(
+                             0
+                            ) [NumberConst]
+                          ) [ConstFactor]
+                          NoMullopList(
+                          ) [NoMullopList]
+                        ) [MultipleFactorTerm]
+                        NoAdditionList(
+                        ) [NoAdditionList]
+                      ) [ExprAdditionList]
+                    ) [ArrayDesignator]
+                  ) [AssignmentDesignatorOk]
+                  AssignmentExprOk(
+                    ExprAdditionList(
+                      MultipleFactorTerm(
+                        ConstFactor(
+                          NumberConst(
+                           1
+                          ) [NumberConst]
+                        ) [ConstFactor]
+                        NoMullopList(
+                        ) [NoMullopList]
+                      ) [MultipleFactorTerm]
+                      NoAdditionList(
+                      ) [NoAdditionList]
+                    ) [ExprAdditionList]
+                  ) [AssignmentExprOk]
+                ) [AssignDesignator]
+              ) [DesignatorStmt]
+            ) [NoLabelStatement]
+          ) [StmtList]
+          NoLabelStatement(
+            DesignatorStmt(
+              AssignDesignator(
+                AssignmentDesignatorOk(
+                  ArrayDesignator(
+                    ArrayName(
+                     b2
+                    ) [ArrayName]
+                    ExprAdditionList(
+                      MultipleFactorTerm(
+                        ConstFactor(
+                          NumberConst(
+                           0
+                          ) [NumberConst]
+                        ) [ConstFactor]
+                        NoMullopList(
+                        ) [NoMullopList]
+                      ) [MultipleFactorTerm]
+                      NoAdditionList(
+                      ) [NoAdditionList]
+                    ) [ExprAdditionList]
+                  ) [ArrayDesignator]
+                ) [AssignmentDesignatorOk]
+                AssignmentExprOk(
+                  ExprAdditionList(
+                    MultipleFactorTerm(
+                      ConstFactor(
+                        NumberConst(
+                         0
+                        ) [NumberConst]
+                      ) [ConstFactor]
+                      NoMullopList(
+                      ) [NoMullopList]
+                    ) [MultipleFactorTerm]
+                    NoAdditionList(
+                    ) [NoAdditionList]
+                  ) [ExprAdditionList]
+                ) [AssignmentExprOk]
+              ) [AssignDesignator]
+            ) [DesignatorStmt]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStmt(
+            ExprAdditionList(
+              MultipleFactorTerm(
+                DesignatorFactor(
+                  ArrayDesignator(
+                    ArrayName(
+                     b2
+                    ) [ArrayName]
+                    ExprAdditionList(
+                      MultipleFactorTerm(
+                        ConstFactor(
+                          NumberConst(
+                           0
+                          ) [NumberConst]
+                        ) [ConstFactor]
+                        NoMullopList(
+                        ) [NoMullopList]
+                      ) [MultipleFactorTerm]
+                      NoAdditionList(
+                      ) [NoAdditionList]
+                    ) [ExprAdditionList]
+                  ) [ArrayDesignator]
+                ) [DesignatorFactor]
+                NoMullopList(
+                ) [NoMullopList]
+              ) [MultipleFactorTerm]
+              NoAdditionList(
+              ) [NoAdditionList]
+            ) [ExprAdditionList]
+            NoPrintOptions(
+            ) [NoPrintOptions]
+          ) [PrintStmt]
+        ) [NoLabelStatement]
+      ) [StmtList]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              DesignatorFactor(
+                ArrayDesignator(
+                  ArrayName(
+                   b2
+                  ) [ArrayName]
+                  ExprAdditionList(
+                    MultipleFactorTerm(
+                      ConstFactor(
+                        NumberConst(
+                         1
+                        ) [NumberConst]
+                      ) [ConstFactor]
+                      NoMullopList(
+                      ) [NoMullopList]
+                    ) [MultipleFactorTerm]
+                    NoAdditionList(
+                    ) [NoAdditionList]
+                  ) [ExprAdditionList]
+                ) [ArrayDesignator]
+              ) [DesignatorFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  17:42:27,021 - ===================================
+INFO  17:42:27,024 - otvoren scope za program na liniji 3
+INFO  17:42:27,024 - Deklarisana main metoda na liniji 5
+INFO  17:42:27,024 - otvoren scope za main na liniji 5
+INFO  17:42:27,024 - Deklarisana globalna promenljiva b2 tipa Int[] na liniji 6
+INFO  17:42:27,025 - Pretraga b2 tipa Array na liniji 11
+INFO  17:42:27,025 - Pretraga b2 tipa Array na liniji 12
+INFO  17:42:27,025 - Pretraga b2 tipa Array na liniji 14
+INFO  17:42:27,025 - Pretraga b2 tipa Array na liniji 15
+INFO  17:42:27,025 - zatvoren scope za main na liniji 5
+INFO  17:42:27,025 - zatvoren scope za program na liniji 3
+INFO  17:42:27,025 - Sintaksna analiza uspesno zavrsena!
+INFO  17:42:27,025 - Semanticka analiza uspesno zavrsena!
+INFO  17:42:27,037 - Generisanje koda uspesno zavrseno!

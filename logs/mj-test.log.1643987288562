@@ -1,0 +1,142 @@
+INFO  16:05:51,021 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  16:05:51,059 - #2 program
+INFO  16:05:51,059 - #48 test301
+INFO  16:05:51,059 - #48 int
+INFO  16:05:51,062 - #48 x
+INFO  16:05:51,063 - #20 ;
+INFO  16:05:51,064 - #7 {
+INFO  16:05:51,064 - #8 void
+INFO  16:05:51,064 - #48 main
+INFO  16:05:51,064 - #22 (
+INFO  16:05:51,065 - #23 )
+INFO  16:05:51,065 - #7 {
+INFO  16:05:51,065 - #48 x
+INFO  16:05:51,065 - #16 =
+INFO  16:05:51,065 - #50 3
+INFO  16:05:51,065 - #20 ;
+INFO  16:05:51,067 - #4 print
+INFO  16:05:51,070 - #22 (
+INFO  16:05:51,070 - #50 1
+INFO  16:05:51,070 - #23 )
+INFO  16:05:51,072 - #20 ;
+INFO  16:05:51,072 - #4 print
+INFO  16:05:51,072 - #22 (
+INFO  16:05:51,073 - #48 x
+INFO  16:05:51,073 - #23 )
+INFO  16:05:51,073 - #20 ;
+INFO  16:05:51,073 - #10 }
+INFO  16:05:51,073 - #10 }
+INFO  16:05:51,086 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclList(
+    NoGlobalDeclarationList(
+    ) [NoGlobalDeclarationList]
+    VarDecl(
+      MultipleVarDecls(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          GlobalSimpleVarDecl(
+           x
+          ) [GlobalSimpleVarDecl]
+        ) [SingleVarDecl]
+      ) [MultipleVarDecls]
+    ) [VarDecl]
+  ) [GlobalDeclList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    NoLocalVarDeclarations(
+    ) [NoLocalVarDeclarations]
+    StmtList(
+      StmtList(
+        StmtList(
+          NoStatement(
+          ) [NoStatement]
+          NoLabelStatement(
+            DesignatorStmt(
+              AssignDesignator(
+                AssignmentDesignatorOk(
+                  VarDesignator(
+                   x
+                  ) [VarDesignator]
+                ) [AssignmentDesignatorOk]
+                AssignmentExprOk(
+                  ExprAdditionList(
+                    MultipleFactorTerm(
+                      ConstFactor(
+                        NumberConst(
+                         3
+                        ) [NumberConst]
+                      ) [ConstFactor]
+                      NoMullopList(
+                      ) [NoMullopList]
+                    ) [MultipleFactorTerm]
+                    NoAdditionList(
+                    ) [NoAdditionList]
+                  ) [ExprAdditionList]
+                ) [AssignmentExprOk]
+              ) [AssignDesignator]
+            ) [DesignatorStmt]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStmt(
+            ExprAdditionList(
+              MultipleFactorTerm(
+                ConstFactor(
+                  NumberConst(
+                   1
+                  ) [NumberConst]
+                ) [ConstFactor]
+                NoMullopList(
+                ) [NoMullopList]
+              ) [MultipleFactorTerm]
+              NoAdditionList(
+              ) [NoAdditionList]
+            ) [ExprAdditionList]
+            NoPrintOptions(
+            ) [NoPrintOptions]
+          ) [PrintStmt]
+        ) [NoLabelStatement]
+      ) [StmtList]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              DesignatorFactor(
+                VarDesignator(
+                 x
+                ) [VarDesignator]
+              ) [DesignatorFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  16:05:51,087 - ===================================
+INFO  16:05:51,090 - otvoren scope za program na liniji 3
+INFO  16:05:51,090 - Deklarisana globalna promenljiva x tipa Int na liniji 4
+INFO  16:05:51,090 - Deklarisana main metoda na liniji 8
+INFO  16:05:51,090 - otvoren scope za main na liniji 8
+INFO  16:05:51,090 - Pretraga x tipa Int na liniji 10
+INFO  16:05:51,091 - Pretraga x tipa Int na liniji 14
+INFO  16:05:51,091 - zatvoren scope za main na liniji 8
+INFO  16:05:51,091 - zatvoren scope za program na liniji 3
+INFO  16:05:51,091 - Sintaksna analiza uspesno zavrsena!
+INFO  16:05:51,091 - Semanticka analiza uspesno zavrsena!
+INFO  16:05:51,096 - Generisanje koda uspesno zavrseno!

@@ -1,0 +1,105 @@
+INFO  17:16:13,013 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  17:16:13,046 - #2 program
+INFO  17:16:13,046 - #48 test301
+INFO  17:16:13,046 - #26 const
+INFO  17:16:13,047 - #48 int
+INFO  17:16:13,047 - #48 nula
+INFO  17:16:13,047 - #16 =
+INFO  17:16:13,047 - #50 0
+INFO  17:16:13,048 - #20 ;
+INFO  17:16:13,048 - #7 {
+INFO  17:16:13,048 - #8 void
+INFO  17:16:13,048 - #48 main
+INFO  17:16:13,048 - #22 (
+INFO  17:16:13,049 - #23 )
+INFO  17:16:13,049 - #48 int
+INFO  17:16:13,049 - #48 bodovi
+INFO  17:16:13,049 - #20 ;
+INFO  17:16:13,050 - #7 {
+INFO  17:16:13,050 - #48 bodovi
+INFO  17:16:13,051 - #16 =
+INFO  17:16:13,051 - #50 0
+INFO  17:16:13,051 - #20 ;
+INFO  17:16:13,055 - #10 }
+INFO  17:16:13,055 - #10 }
+INFO  17:16:13,067 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclList(
+    NoGlobalDeclarationList(
+    ) [NoGlobalDeclarationList]
+    ConstDecl(
+      MultipleConstDeclarations(
+        Type(
+         int
+        ) [Type]
+        SingleConstDeclarations(
+          SingleConstDecl(
+           nula
+            NumberConst(
+             0
+            ) [NumberConst]
+          ) [SingleConstDecl]
+        ) [SingleConstDeclarations]
+      ) [MultipleConstDeclarations]
+    ) [ConstDecl]
+  ) [GlobalDeclList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    HasLocalVarDeclarations(
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Type(
+       int
+      ) [Type]
+      SingleLocalVarDeclaration(
+        SimpleLocalVarDecl(
+         bodovi
+        ) [SimpleLocalVarDecl]
+      ) [SingleLocalVarDeclaration]
+    ) [HasLocalVarDeclarations]
+    StmtList(
+      NoStatement(
+      ) [NoStatement]
+      NoLabelStatement(
+        DesignatorStmt(
+          AssignDesignator(
+            AssignmentDesignatorOk(
+              VarDesignator(
+               bodovi
+              ) [VarDesignator]
+            ) [AssignmentDesignatorOk]
+            AssignmentExprOk(
+              ExprAdditionList(
+                MultipleFactorTerm(
+                  ConstFactor(
+                    NumberConst(
+                     0
+                    ) [NumberConst]
+                  ) [ConstFactor]
+                  NoMullopList(
+                  ) [NoMullopList]
+                ) [MultipleFactorTerm]
+                NoAdditionList(
+                ) [NoAdditionList]
+              ) [ExprAdditionList]
+            ) [AssignmentExprOk]
+          ) [AssignDesignator]
+        ) [DesignatorStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  17:16:13,067 - ===================================
+INFO  17:16:13,070 - Deklarisana konstanta nula tipa Int na liniji 5
+INFO  17:16:13,070 - Deklarisana main metoda na liniji 8
+INFO  17:16:13,070 - Deklarisana lokalna promenljiva bodovi tipa Int na liniji 9
+INFO  17:16:13,070 - Pretraga bodovi tipa Int na liniji 11
+INFO  17:16:13,070 - Sintaksna analiza uspesno zavrsena!
+INFO  17:16:13,070 - Semanticka analiza uspesno zavrsena!
+INFO  17:16:13,071 - ===================================

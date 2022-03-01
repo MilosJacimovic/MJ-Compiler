@@ -1,0 +1,186 @@
+INFO  11:01:38,701 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  11:01:38,751 - #2 program
+INFO  11:01:38,751 - #48 test301
+INFO  11:01:38,751 - #48 bool
+INFO  11:01:38,753 - #48 b
+INFO  11:01:38,753 - #20 ;
+INFO  11:01:38,754 - #48 bool
+INFO  11:01:38,754 - #48 bl
+INFO  11:01:38,754 - #24 [
+INFO  11:01:38,754 - #25 ]
+INFO  11:01:38,754 - #20 ;
+INFO  11:01:38,754 - #7 {
+INFO  11:01:38,754 - #8 void
+INFO  11:01:38,755 - #48 main
+INFO  11:01:38,755 - #22 (
+INFO  11:01:38,756 - #23 )
+INFO  11:01:38,756 - #7 {
+INFO  11:01:38,757 - #48 bool
+INFO  11:01:38,757 - #16 =
+INFO  11:01:38,758 - #3 new
+INFO  11:01:38,758 - #48 bool
+INFO  11:01:38,758 - #24 [
+INFO  11:01:38,760 - #50 2
+INFO  11:01:38,760 - #25 ]
+INFO  11:01:38,762 - #20 ;
+INFO  11:01:38,763 - #48 b
+INFO  11:01:38,763 - #16 =
+INFO  11:01:38,763 - #49 true
+INFO  11:01:38,763 - #20 ;
+INFO  11:01:38,763 - #4 print
+INFO  11:01:38,763 - #22 (
+INFO  11:01:38,763 - #48 b
+INFO  11:01:38,763 - #23 )
+INFO  11:01:38,764 - #20 ;
+INFO  11:01:38,764 - #10 }
+INFO  11:01:38,765 - #10 }
+INFO  11:01:38,777 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclList(
+    GlobalDeclList(
+      NoGlobalDeclarationList(
+      ) [NoGlobalDeclarationList]
+      VarDecl(
+        MultipleVarDecls(
+          Type(
+           bool
+          ) [Type]
+          SingleVarDecl(
+            GlobalSimpleVarDecl(
+             b
+            ) [GlobalSimpleVarDecl]
+          ) [SingleVarDecl]
+        ) [MultipleVarDecls]
+      ) [VarDecl]
+    ) [GlobalDeclList]
+    VarDecl(
+      MultipleVarDecls(
+        Type(
+         bool
+        ) [Type]
+        SingleVarDecl(
+          GlobalArrayVarDecl(
+           bl
+          ) [GlobalArrayVarDecl]
+        ) [SingleVarDecl]
+      ) [MultipleVarDecls]
+    ) [VarDecl]
+  ) [GlobalDeclList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    NoLocalVarDeclarations(
+    ) [NoLocalVarDeclarations]
+    StmtList(
+      StmtList(
+        StmtList(
+          NoStatement(
+          ) [NoStatement]
+          NoLabelStatement(
+            DesignatorStmt(
+              AssignDesignator(
+                AssignmentDesignatorOk(
+                  VarDesignator(
+                   bool
+                  ) [VarDesignator]
+                ) [AssignmentDesignatorOk]
+                AssignmentExprOk(
+                  ExprAdditionList(
+                    MultipleFactorTerm(
+                      NewArrayFactor(
+                        Type(
+                         bool
+                        ) [Type]
+                        ExprAdditionList(
+                          MultipleFactorTerm(
+                            ConstFactor(
+                              NumberConst(
+                               2
+                              ) [NumberConst]
+                            ) [ConstFactor]
+                            NoMullopList(
+                            ) [NoMullopList]
+                          ) [MultipleFactorTerm]
+                          NoAdditionList(
+                          ) [NoAdditionList]
+                        ) [ExprAdditionList]
+                      ) [NewArrayFactor]
+                      NoMullopList(
+                      ) [NoMullopList]
+                    ) [MultipleFactorTerm]
+                    NoAdditionList(
+                    ) [NoAdditionList]
+                  ) [ExprAdditionList]
+                ) [AssignmentExprOk]
+              ) [AssignDesignator]
+            ) [DesignatorStmt]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          DesignatorStmt(
+            AssignDesignator(
+              AssignmentDesignatorOk(
+                VarDesignator(
+                 b
+                ) [VarDesignator]
+              ) [AssignmentDesignatorOk]
+              AssignmentExprOk(
+                ExprAdditionList(
+                  MultipleFactorTerm(
+                    ConstFactor(
+                      BoolConst(
+                       true
+                      ) [BoolConst]
+                    ) [ConstFactor]
+                    NoMullopList(
+                    ) [NoMullopList]
+                  ) [MultipleFactorTerm]
+                  NoAdditionList(
+                  ) [NoAdditionList]
+                ) [ExprAdditionList]
+              ) [AssignmentExprOk]
+            ) [AssignDesignator]
+          ) [DesignatorStmt]
+        ) [NoLabelStatement]
+      ) [StmtList]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              DesignatorFactor(
+                VarDesignator(
+                 b
+                ) [VarDesignator]
+              ) [DesignatorFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  11:01:38,778 - ===================================
+INFO  11:01:38,782 - otvoren scope za program na liniji 3
+INFO  11:01:38,782 - Deklarisana globalna promenljiva b tipa Bool na liniji 5
+INFO  11:01:38,782 - Deklarisana globalna promenljiva bl tipa Bool[] na liniji 6
+INFO  11:01:38,782 - Deklarisana main metoda na liniji 9
+INFO  11:01:38,782 - otvoren scope za main na liniji 9
+ERROR 11:01:38,783 - bool mora biti promenljiva ili element niza! na liniji 12
+ERROR 11:01:38,783 - Promenljivoj nije dodeljiv tip Array na liniji 12
+INFO  11:01:38,783 - Pretraga b tipa Bool na liniji 13
+INFO  11:01:38,783 - Pretraga b tipa Bool na liniji 15
+INFO  11:01:38,783 - zatvoren scope za main na liniji 9
+INFO  11:01:38,783 - zatvoren scope za program na liniji 3
+INFO  11:01:38,783 - Sintaksna analiza uspesno zavrsena!
+ERROR 11:01:38,783 - Parsiranje NIJE uspesno zavrseno! Problem u semantickoj analizi!

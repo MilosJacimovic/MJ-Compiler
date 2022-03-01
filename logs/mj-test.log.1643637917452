@@ -1,0 +1,27 @@
+INFO  15:04:36,587 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  15:04:36,619 - #2 program
+INFO  15:04:36,619 - #48 test301
+INFO  15:04:36,619 - #26 const
+INFO  15:04:36,620 - #48 int
+INFO  15:04:36,620 - #48 nula
+INFO  15:04:36,621 - #16 =
+INFO  15:04:36,621 - #50 0
+INFO  15:04:36,621 - #20 ;
+INFO  15:04:36,621 - #26 const
+INFO  15:04:36,622 - #48 int
+INFO  15:04:36,622 - #48 jedan
+INFO  15:04:36,622 - #16 =
+INFO  15:04:36,622 - #50 1
+INFO  15:04:36,622 - #20 ;
+INFO  15:04:36,622 - #26 const
+INFO  15:04:36,622 - #48 int
+INFO  15:04:36,622 - #48 pet
+INFO  15:04:36,622 - #16 =
+INFO  15:04:36,622 - #50 5
+INFO  15:04:36,623 - #20 ;
+INFO  15:04:36,623 - #26 const
+INFO  15:04:36,624 - #48 boolean
+INFO  15:04:36,624 - #48 bl
+INFO  15:04:36,624 - #16 =
+INFO  15:04:36,624 - #49 true
+INFO  15:04:36,624 - #20 ;

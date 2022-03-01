@@ -1,0 +1,1550 @@
+INFO  17:08:08,747 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\test301_A.mj
+INFO  17:08:08,781 - #2 program
+INFO  17:08:08,781 - #48 test301
+INFO  17:08:08,781 - #26 const
+INFO  17:08:08,783 - #48 int
+INFO  17:08:08,783 - #48 nula
+INFO  17:08:08,784 - #16 =
+INFO  17:08:08,784 - #50 0
+INFO  17:08:08,784 - #20 ;
+INFO  17:08:08,784 - #26 const
+INFO  17:08:08,784 - #48 int
+INFO  17:08:08,785 - #48 jedan
+INFO  17:08:08,785 - #16 =
+INFO  17:08:08,785 - #50 1
+INFO  17:08:08,785 - #20 ;
+INFO  17:08:08,785 - #26 const
+INFO  17:08:08,785 - #48 int
+INFO  17:08:08,785 - #48 pet
+INFO  17:08:08,785 - #16 =
+INFO  17:08:08,785 - #50 5
+INFO  17:08:08,785 - #20 ;
+INFO  17:08:08,785 - #48 int
+INFO  17:08:08,788 - #48 niz
+INFO  17:08:08,789 - #24 [
+INFO  17:08:08,789 - #25 ]
+INFO  17:08:08,789 - #20 ;
+INFO  17:08:08,789 - #48 char
+INFO  17:08:08,789 - #48 nizch
+INFO  17:08:08,790 - #24 [
+INFO  17:08:08,790 - #25 ]
+INFO  17:08:08,790 - #20 ;
+INFO  17:08:08,790 - #7 {
+INFO  17:08:08,790 - #8 void
+INFO  17:08:08,790 - #48 main
+INFO  17:08:08,790 - #22 (
+INFO  17:08:08,791 - #23 )
+INFO  17:08:08,791 - #48 int
+INFO  17:08:08,791 - #48 bodovi
+INFO  17:08:08,792 - #20 ;
+INFO  17:08:08,792 - #7 {
+INFO  17:08:08,792 - #48 bodovi
+INFO  17:08:08,792 - #16 =
+INFO  17:08:08,793 - #50 0
+INFO  17:08:08,793 - #20 ;
+INFO  17:08:08,795 - #48 bodovi
+INFO  17:08:08,795 - #17 ++
+INFO  17:08:08,796 - #20 ;
+INFO  17:08:08,796 - #48 bodovi
+INFO  17:08:08,796 - #16 =
+INFO  17:08:08,796 - #48 bodovi
+INFO  17:08:08,796 - #11 +
+INFO  17:08:08,796 - #48 jedan
+INFO  17:08:08,797 - #20 ;
+INFO  17:08:08,797 - #48 bodovi
+INFO  17:08:08,797 - #16 =
+INFO  17:08:08,798 - #48 bodovi
+INFO  17:08:08,798 - #13 *
+INFO  17:08:08,798 - #48 pet
+INFO  17:08:08,798 - #20 ;
+INFO  17:08:08,799 - #48 bodovi
+INFO  17:08:08,799 - #18 --
+INFO  17:08:08,800 - #20 ;
+INFO  17:08:08,800 - #4 print
+INFO  17:08:08,800 - #22 (
+INFO  17:08:08,800 - #48 bodovi
+INFO  17:08:08,800 - #23 )
+INFO  17:08:08,801 - #20 ;
+INFO  17:08:08,801 - #48 niz
+INFO  17:08:08,802 - #16 =
+INFO  17:08:08,808 - #3 new
+INFO  17:08:08,808 - #48 int
+INFO  17:08:08,808 - #24 [
+INFO  17:08:08,808 - #50 3
+INFO  17:08:08,808 - #25 ]
+INFO  17:08:08,808 - #20 ;
+INFO  17:08:08,808 - #48 niz
+INFO  17:08:08,808 - #24 [
+INFO  17:08:08,809 - #48 nula
+INFO  17:08:08,809 - #25 ]
+INFO  17:08:08,809 - #16 =
+INFO  17:08:08,809 - #48 jedan
+INFO  17:08:08,809 - #20 ;
+INFO  17:08:08,810 - #48 niz
+INFO  17:08:08,810 - #24 [
+INFO  17:08:08,810 - #50 1
+INFO  17:08:08,810 - #25 ]
+INFO  17:08:08,810 - #16 =
+INFO  17:08:08,810 - #50 2
+INFO  17:08:08,810 - #20 ;
+INFO  17:08:08,810 - #48 niz
+INFO  17:08:08,810 - #24 [
+INFO  17:08:08,810 - #48 niz
+INFO  17:08:08,811 - #24 [
+INFO  17:08:08,811 - #48 jedan
+INFO  17:08:08,811 - #25 ]
+INFO  17:08:08,811 - #25 ]
+INFO  17:08:08,811 - #16 =
+INFO  17:08:08,812 - #48 niz
+INFO  17:08:08,812 - #24 [
+INFO  17:08:08,812 - #48 niz
+INFO  17:08:08,812 - #24 [
+INFO  17:08:08,812 - #50 0
+INFO  17:08:08,812 - #25 ]
+INFO  17:08:08,812 - #25 ]
+INFO  17:08:08,812 - #13 *
+INFO  17:08:08,812 - #50 3
+INFO  17:08:08,812 - #20 ;
+INFO  17:08:08,812 - #48 bodovi
+INFO  17:08:08,813 - #16 =
+INFO  17:08:08,813 - #48 niz
+INFO  17:08:08,813 - #24 [
+INFO  17:08:08,813 - #50 2
+INFO  17:08:08,813 - #25 ]
+INFO  17:08:08,813 - #14 /
+INFO  17:08:08,813 - #48 niz
+INFO  17:08:08,813 - #24 [
+INFO  17:08:08,814 - #50 0
+INFO  17:08:08,814 - #25 ]
+INFO  17:08:08,814 - #20 ;
+INFO  17:08:08,814 - #4 print
+INFO  17:08:08,814 - #22 (
+INFO  17:08:08,814 - #48 bodovi
+INFO  17:08:08,814 - #23 )
+INFO  17:08:08,814 - #20 ;
+INFO  17:08:08,814 - #4 print
+INFO  17:08:08,814 - #22 (
+INFO  17:08:08,814 - #48 niz
+INFO  17:08:08,814 - #24 [
+INFO  17:08:08,814 - #50 2
+INFO  17:08:08,814 - #25 ]
+INFO  17:08:08,814 - #23 )
+INFO  17:08:08,815 - #20 ;
+INFO  17:08:08,815 - #48 nizch
+INFO  17:08:08,815 - #16 =
+INFO  17:08:08,815 - #3 new
+INFO  17:08:08,815 - #48 char
+INFO  17:08:08,815 - #24 [
+INFO  17:08:08,815 - #50 3
+INFO  17:08:08,815 - #25 ]
+INFO  17:08:08,815 - #20 ;
+INFO  17:08:08,815 - #48 nizch
+INFO  17:08:08,815 - #24 [
+INFO  17:08:08,815 - #50 0
+INFO  17:08:08,815 - #25 ]
+INFO  17:08:08,815 - #16 =
+INFO  17:08:08,816 - #51 a
+INFO  17:08:08,816 - #20 ;
+INFO  17:08:08,816 - #48 nizch
+INFO  17:08:08,816 - #24 [
+INFO  17:08:08,816 - #48 jedan
+INFO  17:08:08,816 - #25 ]
+INFO  17:08:08,816 - #16 =
+INFO  17:08:08,816 - #51 b
+INFO  17:08:08,816 - #20 ;
+INFO  17:08:08,816 - #48 nizch
+INFO  17:08:08,816 - #24 [
+INFO  17:08:08,816 - #48 pet
+INFO  17:08:08,816 - #12 -
+INFO  17:08:08,816 - #50 3
+INFO  17:08:08,817 - #25 ]
+INFO  17:08:08,817 - #16 =
+INFO  17:08:08,817 - #51 c
+INFO  17:08:08,817 - #20 ;
+INFO  17:08:08,817 - #4 print
+INFO  17:08:08,817 - #22 (
+INFO  17:08:08,817 - #48 nizch
+INFO  17:08:08,817 - #24 [
+INFO  17:08:08,817 - #50 1
+INFO  17:08:08,817 - #25 ]
+INFO  17:08:08,817 - #23 )
+INFO  17:08:08,817 - #20 ;
+INFO  17:08:08,818 - #4 print
+INFO  17:08:08,818 - #22 (
+INFO  17:08:08,818 - #48 nizch
+INFO  17:08:08,818 - #24 [
+INFO  17:08:08,818 - #48 jedan
+INFO  17:08:08,818 - #13 *
+INFO  17:08:08,818 - #50 2
+INFO  17:08:08,818 - #25 ]
+INFO  17:08:08,818 - #23 )
+INFO  17:08:08,818 - #20 ;
+INFO  17:08:08,818 - #48 bodovi
+INFO  17:08:08,818 - #16 =
+INFO  17:08:08,818 - #48 bodovi
+INFO  17:08:08,818 - #11 +
+INFO  17:08:08,818 - #22 (
+INFO  17:08:08,818 - #48 pet
+INFO  17:08:08,818 - #13 *
+INFO  17:08:08,818 - #48 jedan
+INFO  17:08:08,818 - #12 -
+INFO  17:08:08,818 - #50 1
+INFO  17:08:08,818 - #23 )
+INFO  17:08:08,819 - #13 *
+INFO  17:08:08,819 - #48 bodovi
+INFO  17:08:08,819 - #12 -
+INFO  17:08:08,819 - #22 (
+INFO  17:08:08,819 - #50 3
+INFO  17:08:08,819 - #15 %
+INFO  17:08:08,819 - #50 2
+INFO  17:08:08,819 - #11 +
+INFO  17:08:08,819 - #50 3
+INFO  17:08:08,820 - #13 *
+INFO  17:08:08,820 - #50 2
+INFO  17:08:08,820 - #12 -
+INFO  17:08:08,820 - #50 3
+INFO  17:08:08,820 - #23 )
+INFO  17:08:08,820 - #20 ;
+INFO  17:08:08,820 - #4 print
+INFO  17:08:08,820 - #22 (
+INFO  17:08:08,820 - #48 bodovi
+INFO  17:08:08,820 - #23 )
+INFO  17:08:08,820 - #20 ;
+INFO  17:08:08,820 - #4 print
+INFO  17:08:08,820 - #22 (
+INFO  17:08:08,820 - #48 bodovi
+INFO  17:08:08,820 - #23 )
+INFO  17:08:08,820 - #20 ;
+INFO  17:08:08,820 - #4 print
+INFO  17:08:08,820 - #22 (
+INFO  17:08:08,820 - #51 -
+INFO  17:08:08,820 - #23 )
+INFO  17:08:08,820 - #20 ;
+INFO  17:08:08,820 - #48 bodovi
+INFO  17:08:08,820 - #17 ++
+INFO  17:08:08,820 - #20 ;
+INFO  17:08:08,820 - #9 goto
+INFO  17:08:08,821 - #48 labela1
+INFO  17:08:08,821 - #20 ;
+INFO  17:08:08,821 - #48 bodovi
+INFO  17:08:08,821 - #16 =
+INFO  17:08:08,821 - #48 bodovi
+INFO  17:08:08,822 - #13 *
+INFO  17:08:08,822 - #50 2
+INFO  17:08:08,822 - #20 ;
+INFO  17:08:08,822 - #48 bodovi
+INFO  17:08:08,822 - #18 --
+INFO  17:08:08,822 - #20 ;
+INFO  17:08:08,822 - #48 labela1
+INFO  17:08:08,822 - #19 :
+INFO  17:08:08,822 - #48 bodovi
+INFO  17:08:08,822 - #16 =
+INFO  17:08:08,822 - #48 bodovi
+INFO  17:08:08,822 - #11 +
+INFO  17:08:08,822 - #50 3
+INFO  17:08:08,822 - #20 ;
+INFO  17:08:08,822 - #4 print
+INFO  17:08:08,822 - #22 (
+INFO  17:08:08,822 - #48 bodovi
+INFO  17:08:08,822 - #23 )
+INFO  17:08:08,822 - #20 ;
+INFO  17:08:08,822 - #9 goto
+INFO  17:08:08,822 - #48 labelaminus
+INFO  17:08:08,823 - #20 ;
+INFO  17:08:08,823 - #4 print
+INFO  17:08:08,823 - #22 (
+INFO  17:08:08,823 - #51 +
+INFO  17:08:08,823 - #23 )
+INFO  17:08:08,823 - #20 ;
+INFO  17:08:08,823 - #48 labelaminus
+INFO  17:08:08,823 - #19 :
+INFO  17:08:08,823 - #4 print
+INFO  17:08:08,823 - #22 (
+INFO  17:08:08,823 - #51 -
+INFO  17:08:08,823 - #23 )
+INFO  17:08:08,823 - #20 ;
+INFO  17:08:08,823 - #10 }
+INFO  17:08:08,823 - #10 }
+INFO  17:08:08,846 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclList(
+    GlobalDeclList(
+      GlobalDeclList(
+        GlobalDeclList(
+          GlobalDeclList(
+            NoGlobalDeclarationList(
+            ) [NoGlobalDeclarationList]
+            ConstDecl(
+              MultipleConstDeclarations(
+                Type(
+                 int
+                ) [Type]
+                SingleConstDeclarations(
+                  SingleConstDecl(
+                   nula
+                    NumberConst(
+                     0
+                    ) [NumberConst]
+                  ) [SingleConstDecl]
+                ) [SingleConstDeclarations]
+              ) [MultipleConstDeclarations]
+            ) [ConstDecl]
+          ) [GlobalDeclList]
+          ConstDecl(
+            MultipleConstDeclarations(
+              Type(
+               int
+              ) [Type]
+              SingleConstDeclarations(
+                SingleConstDecl(
+                 jedan
+                  NumberConst(
+                   1
+                  ) [NumberConst]
+                ) [SingleConstDecl]
+              ) [SingleConstDeclarations]
+            ) [MultipleConstDeclarations]
+          ) [ConstDecl]
+        ) [GlobalDeclList]
+        ConstDecl(
+          MultipleConstDeclarations(
+            Type(
+             int
+            ) [Type]
+            SingleConstDeclarations(
+              SingleConstDecl(
+               pet
+                NumberConst(
+                 5
+                ) [NumberConst]
+              ) [SingleConstDecl]
+            ) [SingleConstDeclarations]
+          ) [MultipleConstDeclarations]
+        ) [ConstDecl]
+      ) [GlobalDeclList]
+      VarDecl(
+        MultipleVarDecls(
+          Type(
+           int
+          ) [Type]
+          SingleVarDecl(
+            GlobalArrayVarDecl(
+             niz
+            ) [GlobalArrayVarDecl]
+          ) [SingleVarDecl]
+        ) [MultipleVarDecls]
+      ) [VarDecl]
+    ) [GlobalDeclList]
+    VarDecl(
+      MultipleVarDecls(
+        Type(
+         char
+        ) [Type]
+        SingleVarDecl(
+          GlobalArrayVarDecl(
+           nizch
+          ) [GlobalArrayVarDecl]
+        ) [SingleVarDecl]
+      ) [MultipleVarDecls]
+    ) [VarDecl]
+  ) [GlobalDeclList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    HasLocalVarDeclarations(
+      NoLocalVarDeclarations(
+      ) [NoLocalVarDeclarations]
+      Type(
+       int
+      ) [Type]
+      SingleLocalVarDeclaration(
+        SimpleLocalVarDecl(
+         bodovi
+        ) [SimpleLocalVarDecl]
+      ) [SingleLocalVarDeclaration]
+    ) [HasLocalVarDeclarations]
+    StmtList(
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              StmtList(
+                StmtList(
+                  StmtList(
+                    StmtList(
+                      StmtList(
+                        StmtList(
+                          StmtList(
+                            StmtList(
+                              StmtList(
+                                StmtList(
+                                  StmtList(
+                                    StmtList(
+                                      StmtList(
+                                        StmtList(
+                                          StmtList(
+                                            StmtList(
+                                              StmtList(
+                                                StmtList(
+                                                  StmtList(
+                                                    StmtList(
+                                                      StmtList(
+                                                        StmtList(
+                                                          StmtList(
+                                                            StmtList(
+                                                              StmtList(
+                                                                StmtList(
+                                                                  StmtList(
+                                                                    NoStatement(
+                                                                    ) [NoStatement]
+                                                                    NoLabelStatement(
+                                                                      DesignatorStmt(
+                                                                        AssignDesignator(
+                                                                          Assignment(
+                                                                            VarDesignator(
+                                                                             bodovi
+                                                                            ) [VarDesignator]
+                                                                            ExprAdditionList(
+                                                                              MultipleFactorTerm(
+                                                                                ConstFactor(
+                                                                                  NumberConst(
+                                                                                   0
+                                                                                  ) [NumberConst]
+                                                                                ) [ConstFactor]
+                                                                                NoMullopList(
+                                                                                ) [NoMullopList]
+                                                                              ) [MultipleFactorTerm]
+                                                                              NoAdditionList(
+                                                                              ) [NoAdditionList]
+                                                                            ) [ExprAdditionList]
+                                                                          ) [Assignment]
+                                                                        ) [AssignDesignator]
+                                                                      ) [DesignatorStmt]
+                                                                    ) [NoLabelStatement]
+                                                                  ) [StmtList]
+                                                                  NoLabelStatement(
+                                                                    DesignatorStmt(
+                                                                      IncrementDesignator(
+                                                                        VarDesignator(
+                                                                         bodovi
+                                                                        ) [VarDesignator]
+                                                                      ) [IncrementDesignator]
+                                                                    ) [DesignatorStmt]
+                                                                  ) [NoLabelStatement]
+                                                                ) [StmtList]
+                                                                NoLabelStatement(
+                                                                  DesignatorStmt(
+                                                                    AssignDesignator(
+                                                                      Assignment(
+                                                                        VarDesignator(
+                                                                         bodovi
+                                                                        ) [VarDesignator]
+                                                                        ExprAdditionList(
+                                                                          MultipleFactorTerm(
+                                                                            DesignatorFactor(
+                                                                              VarDesignator(
+                                                                               bodovi
+                                                                              ) [VarDesignator]
+                                                                            ) [DesignatorFactor]
+                                                                            NoMullopList(
+                                                                            ) [NoMullopList]
+                                                                          ) [MultipleFactorTerm]
+                                                                          AdditionList(
+                                                                            NoAdditionList(
+                                                                            ) [NoAdditionList]
+                                                                            Plus(
+                                                                            ) [Plus]
+                                                                            MultipleFactorTerm(
+                                                                              DesignatorFactor(
+                                                                                VarDesignator(
+                                                                                 jedan
+                                                                                ) [VarDesignator]
+                                                                              ) [DesignatorFactor]
+                                                                              NoMullopList(
+                                                                              ) [NoMullopList]
+                                                                            ) [MultipleFactorTerm]
+                                                                          ) [AdditionList]
+                                                                        ) [ExprAdditionList]
+                                                                      ) [Assignment]
+                                                                    ) [AssignDesignator]
+                                                                  ) [DesignatorStmt]
+                                                                ) [NoLabelStatement]
+                                                              ) [StmtList]
+                                                              NoLabelStatement(
+                                                                DesignatorStmt(
+                                                                  AssignDesignator(
+                                                                    Assignment(
+                                                                      VarDesignator(
+                                                                       bodovi
+                                                                      ) [VarDesignator]
+                                                                      ExprAdditionList(
+                                                                        MultipleFactorTerm(
+                                                                          DesignatorFactor(
+                                                                            VarDesignator(
+                                                                             bodovi
+                                                                            ) [VarDesignator]
+                                                                          ) [DesignatorFactor]
+                                                                          MullopList(
+                                                                            NoMullopList(
+                                                                            ) [NoMullopList]
+                                                                            Mul(
+                                                                            ) [Mul]
+                                                                            DesignatorFactor(
+                                                                              VarDesignator(
+                                                                               pet
+                                                                              ) [VarDesignator]
+                                                                            ) [DesignatorFactor]
+                                                                          ) [MullopList]
+                                                                        ) [MultipleFactorTerm]
+                                                                        NoAdditionList(
+                                                                        ) [NoAdditionList]
+                                                                      ) [ExprAdditionList]
+                                                                    ) [Assignment]
+                                                                  ) [AssignDesignator]
+                                                                ) [DesignatorStmt]
+                                                              ) [NoLabelStatement]
+                                                            ) [StmtList]
+                                                            NoLabelStatement(
+                                                              DesignatorStmt(
+                                                                DecrementDesignator(
+                                                                  VarDesignator(
+                                                                   bodovi
+                                                                  ) [VarDesignator]
+                                                                ) [DecrementDesignator]
+                                                              ) [DesignatorStmt]
+                                                            ) [NoLabelStatement]
+                                                          ) [StmtList]
+                                                          NoLabelStatement(
+                                                            PrintStmt(
+                                                              ExprAdditionList(
+                                                                MultipleFactorTerm(
+                                                                  DesignatorFactor(
+                                                                    VarDesignator(
+                                                                     bodovi
+                                                                    ) [VarDesignator]
+                                                                  ) [DesignatorFactor]
+                                                                  NoMullopList(
+                                                                  ) [NoMullopList]
+                                                                ) [MultipleFactorTerm]
+                                                                NoAdditionList(
+                                                                ) [NoAdditionList]
+                                                              ) [ExprAdditionList]
+                                                              NoPrintOptions(
+                                                              ) [NoPrintOptions]
+                                                            ) [PrintStmt]
+                                                          ) [NoLabelStatement]
+                                                        ) [StmtList]
+                                                        NoLabelStatement(
+                                                          DesignatorStmt(
+                                                            AssignDesignator(
+                                                              Assignment(
+                                                                VarDesignator(
+                                                                 niz
+                                                                ) [VarDesignator]
+                                                                ExprAdditionList(
+                                                                  MultipleFactorTerm(
+                                                                    NewArrayFactor(
+                                                                      Type(
+                                                                       int
+                                                                      ) [Type]
+                                                                      ExprAdditionList(
+                                                                        MultipleFactorTerm(
+                                                                          ConstFactor(
+                                                                            NumberConst(
+                                                                             3
+                                                                            ) [NumberConst]
+                                                                          ) [ConstFactor]
+                                                                          NoMullopList(
+                                                                          ) [NoMullopList]
+                                                                        ) [MultipleFactorTerm]
+                                                                        NoAdditionList(
+                                                                        ) [NoAdditionList]
+                                                                      ) [ExprAdditionList]
+                                                                    ) [NewArrayFactor]
+                                                                    NoMullopList(
+                                                                    ) [NoMullopList]
+                                                                  ) [MultipleFactorTerm]
+                                                                  NoAdditionList(
+                                                                  ) [NoAdditionList]
+                                                                ) [ExprAdditionList]
+                                                              ) [Assignment]
+                                                            ) [AssignDesignator]
+                                                          ) [DesignatorStmt]
+                                                        ) [NoLabelStatement]
+                                                      ) [StmtList]
+                                                      NoLabelStatement(
+                                                        DesignatorStmt(
+                                                          AssignDesignator(
+                                                            Assignment(
+                                                              ArrayDesignator(
+                                                                ArrayName(
+                                                                 niz
+                                                                ) [ArrayName]
+                                                                ExprAdditionList(
+                                                                  MultipleFactorTerm(
+                                                                    DesignatorFactor(
+                                                                      VarDesignator(
+                                                                       nula
+                                                                      ) [VarDesignator]
+                                                                    ) [DesignatorFactor]
+                                                                    NoMullopList(
+                                                                    ) [NoMullopList]
+                                                                  ) [MultipleFactorTerm]
+                                                                  NoAdditionList(
+                                                                  ) [NoAdditionList]
+                                                                ) [ExprAdditionList]
+                                                              ) [ArrayDesignator]
+                                                              ExprAdditionList(
+                                                                MultipleFactorTerm(
+                                                                  DesignatorFactor(
+                                                                    VarDesignator(
+                                                                     jedan
+                                                                    ) [VarDesignator]
+                                                                  ) [DesignatorFactor]
+                                                                  NoMullopList(
+                                                                  ) [NoMullopList]
+                                                                ) [MultipleFactorTerm]
+                                                                NoAdditionList(
+                                                                ) [NoAdditionList]
+                                                              ) [ExprAdditionList]
+                                                            ) [Assignment]
+                                                          ) [AssignDesignator]
+                                                        ) [DesignatorStmt]
+                                                      ) [NoLabelStatement]
+                                                    ) [StmtList]
+                                                    NoLabelStatement(
+                                                      DesignatorStmt(
+                                                        AssignDesignator(
+                                                          Assignment(
+                                                            ArrayDesignator(
+                                                              ArrayName(
+                                                               niz
+                                                              ) [ArrayName]
+                                                              ExprAdditionList(
+                                                                MultipleFactorTerm(
+                                                                  ConstFactor(
+                                                                    NumberConst(
+                                                                     1
+                                                                    ) [NumberConst]
+                                                                  ) [ConstFactor]
+                                                                  NoMullopList(
+                                                                  ) [NoMullopList]
+                                                                ) [MultipleFactorTerm]
+                                                                NoAdditionList(
+                                                                ) [NoAdditionList]
+                                                              ) [ExprAdditionList]
+                                                            ) [ArrayDesignator]
+                                                            ExprAdditionList(
+                                                              MultipleFactorTerm(
+                                                                ConstFactor(
+                                                                  NumberConst(
+                                                                   2
+                                                                  ) [NumberConst]
+                                                                ) [ConstFactor]
+                                                                NoMullopList(
+                                                                ) [NoMullopList]
+                                                              ) [MultipleFactorTerm]
+                                                              NoAdditionList(
+                                                              ) [NoAdditionList]
+                                                            ) [ExprAdditionList]
+                                                          ) [Assignment]
+                                                        ) [AssignDesignator]
+                                                      ) [DesignatorStmt]
+                                                    ) [NoLabelStatement]
+                                                  ) [StmtList]
+                                                  NoLabelStatement(
+                                                    DesignatorStmt(
+                                                      AssignDesignator(
+                                                        Assignment(
+                                                          ArrayDesignator(
+                                                            ArrayName(
+                                                             niz
+                                                            ) [ArrayName]
+                                                            ExprAdditionList(
+                                                              MultipleFactorTerm(
+                                                                DesignatorFactor(
+                                                                  ArrayDesignator(
+                                                                    ArrayName(
+                                                                     niz
+                                                                    ) [ArrayName]
+                                                                    ExprAdditionList(
+                                                                      MultipleFactorTerm(
+                                                                        DesignatorFactor(
+                                                                          VarDesignator(
+                                                                           jedan
+                                                                          ) [VarDesignator]
+                                                                        ) [DesignatorFactor]
+                                                                        NoMullopList(
+                                                                        ) [NoMullopList]
+                                                                      ) [MultipleFactorTerm]
+                                                                      NoAdditionList(
+                                                                      ) [NoAdditionList]
+                                                                    ) [ExprAdditionList]
+                                                                  ) [ArrayDesignator]
+                                                                ) [DesignatorFactor]
+                                                                NoMullopList(
+                                                                ) [NoMullopList]
+                                                              ) [MultipleFactorTerm]
+                                                              NoAdditionList(
+                                                              ) [NoAdditionList]
+                                                            ) [ExprAdditionList]
+                                                          ) [ArrayDesignator]
+                                                          ExprAdditionList(
+                                                            MultipleFactorTerm(
+                                                              DesignatorFactor(
+                                                                ArrayDesignator(
+                                                                  ArrayName(
+                                                                   niz
+                                                                  ) [ArrayName]
+                                                                  ExprAdditionList(
+                                                                    MultipleFactorTerm(
+                                                                      DesignatorFactor(
+                                                                        ArrayDesignator(
+                                                                          ArrayName(
+                                                                           niz
+                                                                          ) [ArrayName]
+                                                                          ExprAdditionList(
+                                                                            MultipleFactorTerm(
+                                                                              ConstFactor(
+                                                                                NumberConst(
+                                                                                 0
+                                                                                ) [NumberConst]
+                                                                              ) [ConstFactor]
+                                                                              NoMullopList(
+                                                                              ) [NoMullopList]
+                                                                            ) [MultipleFactorTerm]
+                                                                            NoAdditionList(
+                                                                            ) [NoAdditionList]
+                                                                          ) [ExprAdditionList]
+                                                                        ) [ArrayDesignator]
+                                                                      ) [DesignatorFactor]
+                                                                      NoMullopList(
+                                                                      ) [NoMullopList]
+                                                                    ) [MultipleFactorTerm]
+                                                                    NoAdditionList(
+                                                                    ) [NoAdditionList]
+                                                                  ) [ExprAdditionList]
+                                                                ) [ArrayDesignator]
+                                                              ) [DesignatorFactor]
+                                                              MullopList(
+                                                                NoMullopList(
+                                                                ) [NoMullopList]
+                                                                Mul(
+                                                                ) [Mul]
+                                                                ConstFactor(
+                                                                  NumberConst(
+                                                                   3
+                                                                  ) [NumberConst]
+                                                                ) [ConstFactor]
+                                                              ) [MullopList]
+                                                            ) [MultipleFactorTerm]
+                                                            NoAdditionList(
+                                                            ) [NoAdditionList]
+                                                          ) [ExprAdditionList]
+                                                        ) [Assignment]
+                                                      ) [AssignDesignator]
+                                                    ) [DesignatorStmt]
+                                                  ) [NoLabelStatement]
+                                                ) [StmtList]
+                                                NoLabelStatement(
+                                                  DesignatorStmt(
+                                                    AssignDesignator(
+                                                      Assignment(
+                                                        VarDesignator(
+                                                         bodovi
+                                                        ) [VarDesignator]
+                                                        ExprAdditionList(
+                                                          MultipleFactorTerm(
+                                                            DesignatorFactor(
+                                                              ArrayDesignator(
+                                                                ArrayName(
+                                                                 niz
+                                                                ) [ArrayName]
+                                                                ExprAdditionList(
+                                                                  MultipleFactorTerm(
+                                                                    ConstFactor(
+                                                                      NumberConst(
+                                                                       2
+                                                                      ) [NumberConst]
+                                                                    ) [ConstFactor]
+                                                                    NoMullopList(
+                                                                    ) [NoMullopList]
+                                                                  ) [MultipleFactorTerm]
+                                                                  NoAdditionList(
+                                                                  ) [NoAdditionList]
+                                                                ) [ExprAdditionList]
+                                                              ) [ArrayDesignator]
+                                                            ) [DesignatorFactor]
+                                                            MullopList(
+                                                              NoMullopList(
+                                                              ) [NoMullopList]
+                                                              Div(
+                                                              ) [Div]
+                                                              DesignatorFactor(
+                                                                ArrayDesignator(
+                                                                  ArrayName(
+                                                                   niz
+                                                                  ) [ArrayName]
+                                                                  ExprAdditionList(
+                                                                    MultipleFactorTerm(
+                                                                      ConstFactor(
+                                                                        NumberConst(
+                                                                         0
+                                                                        ) [NumberConst]
+                                                                      ) [ConstFactor]
+                                                                      NoMullopList(
+                                                                      ) [NoMullopList]
+                                                                    ) [MultipleFactorTerm]
+                                                                    NoAdditionList(
+                                                                    ) [NoAdditionList]
+                                                                  ) [ExprAdditionList]
+                                                                ) [ArrayDesignator]
+                                                              ) [DesignatorFactor]
+                                                            ) [MullopList]
+                                                          ) [MultipleFactorTerm]
+                                                          NoAdditionList(
+                                                          ) [NoAdditionList]
+                                                        ) [ExprAdditionList]
+                                                      ) [Assignment]
+                                                    ) [AssignDesignator]
+                                                  ) [DesignatorStmt]
+                                                ) [NoLabelStatement]
+                                              ) [StmtList]
+                                              NoLabelStatement(
+                                                PrintStmt(
+                                                  ExprAdditionList(
+                                                    MultipleFactorTerm(
+                                                      DesignatorFactor(
+                                                        VarDesignator(
+                                                         bodovi
+                                                        ) [VarDesignator]
+                                                      ) [DesignatorFactor]
+                                                      NoMullopList(
+                                                      ) [NoMullopList]
+                                                    ) [MultipleFactorTerm]
+                                                    NoAdditionList(
+                                                    ) [NoAdditionList]
+                                                  ) [ExprAdditionList]
+                                                  NoPrintOptions(
+                                                  ) [NoPrintOptions]
+                                                ) [PrintStmt]
+                                              ) [NoLabelStatement]
+                                            ) [StmtList]
+                                            NoLabelStatement(
+                                              PrintStmt(
+                                                ExprAdditionList(
+                                                  MultipleFactorTerm(
+                                                    DesignatorFactor(
+                                                      ArrayDesignator(
+                                                        ArrayName(
+                                                         niz
+                                                        ) [ArrayName]
+                                                        ExprAdditionList(
+                                                          MultipleFactorTerm(
+                                                            ConstFactor(
+                                                              NumberConst(
+                                                               2
+                                                              ) [NumberConst]
+                                                            ) [ConstFactor]
+                                                            NoMullopList(
+                                                            ) [NoMullopList]
+                                                          ) [MultipleFactorTerm]
+                                                          NoAdditionList(
+                                                          ) [NoAdditionList]
+                                                        ) [ExprAdditionList]
+                                                      ) [ArrayDesignator]
+                                                    ) [DesignatorFactor]
+                                                    NoMullopList(
+                                                    ) [NoMullopList]
+                                                  ) [MultipleFactorTerm]
+                                                  NoAdditionList(
+                                                  ) [NoAdditionList]
+                                                ) [ExprAdditionList]
+                                                NoPrintOptions(
+                                                ) [NoPrintOptions]
+                                              ) [PrintStmt]
+                                            ) [NoLabelStatement]
+                                          ) [StmtList]
+                                          NoLabelStatement(
+                                            DesignatorStmt(
+                                              AssignDesignator(
+                                                Assignment(
+                                                  VarDesignator(
+                                                   nizch
+                                                  ) [VarDesignator]
+                                                  ExprAdditionList(
+                                                    MultipleFactorTerm(
+                                                      NewArrayFactor(
+                                                        Type(
+                                                         char
+                                                        ) [Type]
+                                                        ExprAdditionList(
+                                                          MultipleFactorTerm(
+                                                            ConstFactor(
+                                                              NumberConst(
+                                                               3
+                                                              ) [NumberConst]
+                                                            ) [ConstFactor]
+                                                            NoMullopList(
+                                                            ) [NoMullopList]
+                                                          ) [MultipleFactorTerm]
+                                                          NoAdditionList(
+                                                          ) [NoAdditionList]
+                                                        ) [ExprAdditionList]
+                                                      ) [NewArrayFactor]
+                                                      NoMullopList(
+                                                      ) [NoMullopList]
+                                                    ) [MultipleFactorTerm]
+                                                    NoAdditionList(
+                                                    ) [NoAdditionList]
+                                                  ) [ExprAdditionList]
+                                                ) [Assignment]
+                                              ) [AssignDesignator]
+                                            ) [DesignatorStmt]
+                                          ) [NoLabelStatement]
+                                        ) [StmtList]
+                                        NoLabelStatement(
+                                          DesignatorStmt(
+                                            AssignDesignator(
+                                              Assignment(
+                                                ArrayDesignator(
+                                                  ArrayName(
+                                                   nizch
+                                                  ) [ArrayName]
+                                                  ExprAdditionList(
+                                                    MultipleFactorTerm(
+                                                      ConstFactor(
+                                                        NumberConst(
+                                                         0
+                                                        ) [NumberConst]
+                                                      ) [ConstFactor]
+                                                      NoMullopList(
+                                                      ) [NoMullopList]
+                                                    ) [MultipleFactorTerm]
+                                                    NoAdditionList(
+                                                    ) [NoAdditionList]
+                                                  ) [ExprAdditionList]
+                                                ) [ArrayDesignator]
+                                                ExprAdditionList(
+                                                  MultipleFactorTerm(
+                                                    ConstFactor(
+                                                      CharConst(
+                                                       a
+                                                      ) [CharConst]
+                                                    ) [ConstFactor]
+                                                    NoMullopList(
+                                                    ) [NoMullopList]
+                                                  ) [MultipleFactorTerm]
+                                                  NoAdditionList(
+                                                  ) [NoAdditionList]
+                                                ) [ExprAdditionList]
+                                              ) [Assignment]
+                                            ) [AssignDesignator]
+                                          ) [DesignatorStmt]
+                                        ) [NoLabelStatement]
+                                      ) [StmtList]
+                                      NoLabelStatement(
+                                        DesignatorStmt(
+                                          AssignDesignator(
+                                            Assignment(
+                                              ArrayDesignator(
+                                                ArrayName(
+                                                 nizch
+                                                ) [ArrayName]
+                                                ExprAdditionList(
+                                                  MultipleFactorTerm(
+                                                    DesignatorFactor(
+                                                      VarDesignator(
+                                                       jedan
+                                                      ) [VarDesignator]
+                                                    ) [DesignatorFactor]
+                                                    NoMullopList(
+                                                    ) [NoMullopList]
+                                                  ) [MultipleFactorTerm]
+                                                  NoAdditionList(
+                                                  ) [NoAdditionList]
+                                                ) [ExprAdditionList]
+                                              ) [ArrayDesignator]
+                                              ExprAdditionList(
+                                                MultipleFactorTerm(
+                                                  ConstFactor(
+                                                    CharConst(
+                                                     b
+                                                    ) [CharConst]
+                                                  ) [ConstFactor]
+                                                  NoMullopList(
+                                                  ) [NoMullopList]
+                                                ) [MultipleFactorTerm]
+                                                NoAdditionList(
+                                                ) [NoAdditionList]
+                                              ) [ExprAdditionList]
+                                            ) [Assignment]
+                                          ) [AssignDesignator]
+                                        ) [DesignatorStmt]
+                                      ) [NoLabelStatement]
+                                    ) [StmtList]
+                                    NoLabelStatement(
+                                      DesignatorStmt(
+                                        AssignDesignator(
+                                          Assignment(
+                                            ArrayDesignator(
+                                              ArrayName(
+                                               nizch
+                                              ) [ArrayName]
+                                              ExprAdditionList(
+                                                MultipleFactorTerm(
+                                                  DesignatorFactor(
+                                                    VarDesignator(
+                                                     pet
+                                                    ) [VarDesignator]
+                                                  ) [DesignatorFactor]
+                                                  NoMullopList(
+                                                  ) [NoMullopList]
+                                                ) [MultipleFactorTerm]
+                                                AdditionList(
+                                                  NoAdditionList(
+                                                  ) [NoAdditionList]
+                                                  Minus(
+                                                  ) [Minus]
+                                                  MultipleFactorTerm(
+                                                    ConstFactor(
+                                                      NumberConst(
+                                                       3
+                                                      ) [NumberConst]
+                                                    ) [ConstFactor]
+                                                    NoMullopList(
+                                                    ) [NoMullopList]
+                                                  ) [MultipleFactorTerm]
+                                                ) [AdditionList]
+                                              ) [ExprAdditionList]
+                                            ) [ArrayDesignator]
+                                            ExprAdditionList(
+                                              MultipleFactorTerm(
+                                                ConstFactor(
+                                                  CharConst(
+                                                   c
+                                                  ) [CharConst]
+                                                ) [ConstFactor]
+                                                NoMullopList(
+                                                ) [NoMullopList]
+                                              ) [MultipleFactorTerm]
+                                              NoAdditionList(
+                                              ) [NoAdditionList]
+                                            ) [ExprAdditionList]
+                                          ) [Assignment]
+                                        ) [AssignDesignator]
+                                      ) [DesignatorStmt]
+                                    ) [NoLabelStatement]
+                                  ) [StmtList]
+                                  NoLabelStatement(
+                                    PrintStmt(
+                                      ExprAdditionList(
+                                        MultipleFactorTerm(
+                                          DesignatorFactor(
+                                            ArrayDesignator(
+                                              ArrayName(
+                                               nizch
+                                              ) [ArrayName]
+                                              ExprAdditionList(
+                                                MultipleFactorTerm(
+                                                  ConstFactor(
+                                                    NumberConst(
+                                                     1
+                                                    ) [NumberConst]
+                                                  ) [ConstFactor]
+                                                  NoMullopList(
+                                                  ) [NoMullopList]
+                                                ) [MultipleFactorTerm]
+                                                NoAdditionList(
+                                                ) [NoAdditionList]
+                                              ) [ExprAdditionList]
+                                            ) [ArrayDesignator]
+                                          ) [DesignatorFactor]
+                                          NoMullopList(
+                                          ) [NoMullopList]
+                                        ) [MultipleFactorTerm]
+                                        NoAdditionList(
+                                        ) [NoAdditionList]
+                                      ) [ExprAdditionList]
+                                      NoPrintOptions(
+                                      ) [NoPrintOptions]
+                                    ) [PrintStmt]
+                                  ) [NoLabelStatement]
+                                ) [StmtList]
+                                NoLabelStatement(
+                                  PrintStmt(
+                                    ExprAdditionList(
+                                      MultipleFactorTerm(
+                                        DesignatorFactor(
+                                          ArrayDesignator(
+                                            ArrayName(
+                                             nizch
+                                            ) [ArrayName]
+                                            ExprAdditionList(
+                                              MultipleFactorTerm(
+                                                DesignatorFactor(
+                                                  VarDesignator(
+                                                   jedan
+                                                  ) [VarDesignator]
+                                                ) [DesignatorFactor]
+                                                MullopList(
+                                                  NoMullopList(
+                                                  ) [NoMullopList]
+                                                  Mul(
+                                                  ) [Mul]
+                                                  ConstFactor(
+                                                    NumberConst(
+                                                     2
+                                                    ) [NumberConst]
+                                                  ) [ConstFactor]
+                                                ) [MullopList]
+                                              ) [MultipleFactorTerm]
+                                              NoAdditionList(
+                                              ) [NoAdditionList]
+                                            ) [ExprAdditionList]
+                                          ) [ArrayDesignator]
+                                        ) [DesignatorFactor]
+                                        NoMullopList(
+                                        ) [NoMullopList]
+                                      ) [MultipleFactorTerm]
+                                      NoAdditionList(
+                                      ) [NoAdditionList]
+                                    ) [ExprAdditionList]
+                                    NoPrintOptions(
+                                    ) [NoPrintOptions]
+                                  ) [PrintStmt]
+                                ) [NoLabelStatement]
+                              ) [StmtList]
+                              NoLabelStatement(
+                                DesignatorStmt(
+                                  AssignDesignator(
+                                    Assignment(
+                                      VarDesignator(
+                                       bodovi
+                                      ) [VarDesignator]
+                                      ExprAdditionList(
+                                        MultipleFactorTerm(
+                                          DesignatorFactor(
+                                            VarDesignator(
+                                             bodovi
+                                            ) [VarDesignator]
+                                          ) [DesignatorFactor]
+                                          NoMullopList(
+                                          ) [NoMullopList]
+                                        ) [MultipleFactorTerm]
+                                        AdditionList(
+                                          AdditionList(
+                                            NoAdditionList(
+                                            ) [NoAdditionList]
+                                            Plus(
+                                            ) [Plus]
+                                            MultipleFactorTerm(
+                                              ExprFactor(
+                                                ExprAdditionList(
+                                                  MultipleFactorTerm(
+                                                    DesignatorFactor(
+                                                      VarDesignator(
+                                                       pet
+                                                      ) [VarDesignator]
+                                                    ) [DesignatorFactor]
+                                                    MullopList(
+                                                      NoMullopList(
+                                                      ) [NoMullopList]
+                                                      Mul(
+                                                      ) [Mul]
+                                                      DesignatorFactor(
+                                                        VarDesignator(
+                                                         jedan
+                                                        ) [VarDesignator]
+                                                      ) [DesignatorFactor]
+                                                    ) [MullopList]
+                                                  ) [MultipleFactorTerm]
+                                                  AdditionList(
+                                                    NoAdditionList(
+                                                    ) [NoAdditionList]
+                                                    Minus(
+                                                    ) [Minus]
+                                                    MultipleFactorTerm(
+                                                      ConstFactor(
+                                                        NumberConst(
+                                                         1
+                                                        ) [NumberConst]
+                                                      ) [ConstFactor]
+                                                      NoMullopList(
+                                                      ) [NoMullopList]
+                                                    ) [MultipleFactorTerm]
+                                                  ) [AdditionList]
+                                                ) [ExprAdditionList]
+                                              ) [ExprFactor]
+                                              MullopList(
+                                                NoMullopList(
+                                                ) [NoMullopList]
+                                                Mul(
+                                                ) [Mul]
+                                                DesignatorFactor(
+                                                  VarDesignator(
+                                                   bodovi
+                                                  ) [VarDesignator]
+                                                ) [DesignatorFactor]
+                                              ) [MullopList]
+                                            ) [MultipleFactorTerm]
+                                          ) [AdditionList]
+                                          Minus(
+                                          ) [Minus]
+                                          MultipleFactorTerm(
+                                            ExprFactor(
+                                              ExprAdditionList(
+                                                MultipleFactorTerm(
+                                                  ConstFactor(
+                                                    NumberConst(
+                                                     3
+                                                    ) [NumberConst]
+                                                  ) [ConstFactor]
+                                                  MullopList(
+                                                    NoMullopList(
+                                                    ) [NoMullopList]
+                                                    Mod(
+                                                    ) [Mod]
+                                                    ConstFactor(
+                                                      NumberConst(
+                                                       2
+                                                      ) [NumberConst]
+                                                    ) [ConstFactor]
+                                                  ) [MullopList]
+                                                ) [MultipleFactorTerm]
+                                                AdditionList(
+                                                  AdditionList(
+                                                    NoAdditionList(
+                                                    ) [NoAdditionList]
+                                                    Plus(
+                                                    ) [Plus]
+                                                    MultipleFactorTerm(
+                                                      ConstFactor(
+                                                        NumberConst(
+                                                         3
+                                                        ) [NumberConst]
+                                                      ) [ConstFactor]
+                                                      MullopList(
+                                                        NoMullopList(
+                                                        ) [NoMullopList]
+                                                        Mul(
+                                                        ) [Mul]
+                                                        ConstFactor(
+                                                          NumberConst(
+                                                           2
+                                                          ) [NumberConst]
+                                                        ) [ConstFactor]
+                                                      ) [MullopList]
+                                                    ) [MultipleFactorTerm]
+                                                  ) [AdditionList]
+                                                  Minus(
+                                                  ) [Minus]
+                                                  MultipleFactorTerm(
+                                                    ConstFactor(
+                                                      NumberConst(
+                                                       3
+                                                      ) [NumberConst]
+                                                    ) [ConstFactor]
+                                                    NoMullopList(
+                                                    ) [NoMullopList]
+                                                  ) [MultipleFactorTerm]
+                                                ) [AdditionList]
+                                              ) [ExprAdditionList]
+                                            ) [ExprFactor]
+                                            NoMullopList(
+                                            ) [NoMullopList]
+                                          ) [MultipleFactorTerm]
+                                        ) [AdditionList]
+                                      ) [ExprAdditionList]
+                                    ) [Assignment]
+                                  ) [AssignDesignator]
+                                ) [DesignatorStmt]
+                              ) [NoLabelStatement]
+                            ) [StmtList]
+                            NoLabelStatement(
+                              PrintStmt(
+                                ExprAdditionList(
+                                  MultipleFactorTerm(
+                                    DesignatorFactor(
+                                      VarDesignator(
+                                       bodovi
+                                      ) [VarDesignator]
+                                    ) [DesignatorFactor]
+                                    NoMullopList(
+                                    ) [NoMullopList]
+                                  ) [MultipleFactorTerm]
+                                  NoAdditionList(
+                                  ) [NoAdditionList]
+                                ) [ExprAdditionList]
+                                NoPrintOptions(
+                                ) [NoPrintOptions]
+                              ) [PrintStmt]
+                            ) [NoLabelStatement]
+                          ) [StmtList]
+                          NoLabelStatement(
+                            PrintStmt(
+                              ExprAdditionList(
+                                MultipleFactorTerm(
+                                  DesignatorFactor(
+                                    VarDesignator(
+                                     bodovi
+                                    ) [VarDesignator]
+                                  ) [DesignatorFactor]
+                                  NoMullopList(
+                                  ) [NoMullopList]
+                                ) [MultipleFactorTerm]
+                                NoAdditionList(
+                                ) [NoAdditionList]
+                              ) [ExprAdditionList]
+                              NoPrintOptions(
+                              ) [NoPrintOptions]
+                            ) [PrintStmt]
+                          ) [NoLabelStatement]
+                        ) [StmtList]
+                        NoLabelStatement(
+                          PrintStmt(
+                            ExprAdditionList(
+                              MultipleFactorTerm(
+                                ConstFactor(
+                                  CharConst(
+                                   -
+                                  ) [CharConst]
+                                ) [ConstFactor]
+                                NoMullopList(
+                                ) [NoMullopList]
+                              ) [MultipleFactorTerm]
+                              NoAdditionList(
+                              ) [NoAdditionList]
+                            ) [ExprAdditionList]
+                            NoPrintOptions(
+                            ) [NoPrintOptions]
+                          ) [PrintStmt]
+                        ) [NoLabelStatement]
+                      ) [StmtList]
+                      NoLabelStatement(
+                        DesignatorStmt(
+                          IncrementDesignator(
+                            VarDesignator(
+                             bodovi
+                            ) [VarDesignator]
+                          ) [IncrementDesignator]
+                        ) [DesignatorStmt]
+                      ) [NoLabelStatement]
+                    ) [StmtList]
+                    NoLabelStatement(
+                      GotoStmt(
+                        Label(
+                         labela1
+                        ) [Label]
+                      ) [GotoStmt]
+                    ) [NoLabelStatement]
+                  ) [StmtList]
+                  NoLabelStatement(
+                    DesignatorStmt(
+                      AssignDesignator(
+                        Assignment(
+                          VarDesignator(
+                           bodovi
+                          ) [VarDesignator]
+                          ExprAdditionList(
+                            MultipleFactorTerm(
+                              DesignatorFactor(
+                                VarDesignator(
+                                 bodovi
+                                ) [VarDesignator]
+                              ) [DesignatorFactor]
+                              MullopList(
+                                NoMullopList(
+                                ) [NoMullopList]
+                                Mul(
+                                ) [Mul]
+                                ConstFactor(
+                                  NumberConst(
+                                   2
+                                  ) [NumberConst]
+                                ) [ConstFactor]
+                              ) [MullopList]
+                            ) [MultipleFactorTerm]
+                            NoAdditionList(
+                            ) [NoAdditionList]
+                          ) [ExprAdditionList]
+                        ) [Assignment]
+                      ) [AssignDesignator]
+                    ) [DesignatorStmt]
+                  ) [NoLabelStatement]
+                ) [StmtList]
+                NoLabelStatement(
+                  DesignatorStmt(
+                    DecrementDesignator(
+                      VarDesignator(
+                       bodovi
+                      ) [VarDesignator]
+                    ) [DecrementDesignator]
+                  ) [DesignatorStmt]
+                ) [NoLabelStatement]
+              ) [StmtList]
+              LabelStatement(
+                Label(
+                 labela1
+                ) [Label]
+                DesignatorStmt(
+                  AssignDesignator(
+                    Assignment(
+                      VarDesignator(
+                       bodovi
+                      ) [VarDesignator]
+                      ExprAdditionList(
+                        MultipleFactorTerm(
+                          DesignatorFactor(
+                            VarDesignator(
+                             bodovi
+                            ) [VarDesignator]
+                          ) [DesignatorFactor]
+                          NoMullopList(
+                          ) [NoMullopList]
+                        ) [MultipleFactorTerm]
+                        AdditionList(
+                          NoAdditionList(
+                          ) [NoAdditionList]
+                          Plus(
+                          ) [Plus]
+                          MultipleFactorTerm(
+                            ConstFactor(
+                              NumberConst(
+                               3
+                              ) [NumberConst]
+                            ) [ConstFactor]
+                            NoMullopList(
+                            ) [NoMullopList]
+                          ) [MultipleFactorTerm]
+                        ) [AdditionList]
+                      ) [ExprAdditionList]
+                    ) [Assignment]
+                  ) [AssignDesignator]
+                ) [DesignatorStmt]
+              ) [LabelStatement]
+            ) [StmtList]
+            NoLabelStatement(
+              PrintStmt(
+                ExprAdditionList(
+                  MultipleFactorTerm(
+                    DesignatorFactor(
+                      VarDesignator(
+                       bodovi
+                      ) [VarDesignator]
+                    ) [DesignatorFactor]
+                    NoMullopList(
+                    ) [NoMullopList]
+                  ) [MultipleFactorTerm]
+                  NoAdditionList(
+                  ) [NoAdditionList]
+                ) [ExprAdditionList]
+                NoPrintOptions(
+                ) [NoPrintOptions]
+              ) [PrintStmt]
+            ) [NoLabelStatement]
+          ) [StmtList]
+          NoLabelStatement(
+            GotoStmt(
+              Label(
+               labelaminus
+              ) [Label]
+            ) [GotoStmt]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          PrintStmt(
+            ExprAdditionList(
+              MultipleFactorTerm(
+                ConstFactor(
+                  CharConst(
+                   +
+                  ) [CharConst]
+                ) [ConstFactor]
+                NoMullopList(
+                ) [NoMullopList]
+              ) [MultipleFactorTerm]
+              NoAdditionList(
+              ) [NoAdditionList]
+            ) [ExprAdditionList]
+            NoPrintOptions(
+            ) [NoPrintOptions]
+          ) [PrintStmt]
+        ) [NoLabelStatement]
+      ) [StmtList]
+      LabelStatement(
+        Label(
+         labelaminus
+        ) [Label]
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              ConstFactor(
+                CharConst(
+                 -
+                ) [CharConst]
+              ) [ConstFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [LabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  17:08:08,850 - ===================================
+INFO  17:08:08,854 - Deklarisana konstanta nula tipa Int na liniji 5
+INFO  17:08:08,854 - Deklarisana konstanta jedan tipa Int na liniji 6
+INFO  17:08:08,855 - Deklarisana konstanta pet tipa Int na liniji 7
+INFO  17:08:08,855 - Deklarisana globalna promenljiva niz tipa Int[] na liniji 9
+INFO  17:08:08,855 - Deklarisana globalna promenljiva nizch tipa Char[] na liniji 10
+INFO  17:08:08,855 - Deklarisana lokalna promenljiva bodovi tipa Int na liniji 14
+INFO  17:08:08,855 - Pretraga bodovi tipa Int na liniji 16
+INFO  17:08:08,855 - Pretraga bodovi tipa Int na liniji 17
+INFO  17:08:08,855 - Pretraga bodovi tipa Int na liniji 18
+INFO  17:08:08,855 - Pretraga bodovi tipa Int na liniji 18
+INFO  17:08:08,855 - Pretraga bodovi tipa Int na liniji 19
+INFO  17:08:08,855 - Pretraga bodovi tipa Int na liniji 19
+INFO  17:08:08,855 - Pretraga bodovi tipa Int na liniji 20
+INFO  17:08:08,855 - Pretraga bodovi tipa Int na liniji 21
+INFO  17:08:08,855 - Pretraga niz tipa Array na liniji 25
+INFO  17:08:08,855 - Pretraga niz tipa Array na liniji 26
+INFO  17:08:08,855 - Pretraga niz tipa Array na liniji 27
+INFO  17:08:08,855 - Pretraga niz tipa Array na liniji 27
+INFO  17:08:08,855 - Pretraga niz tipa Array na liniji 27
+INFO  17:08:08,855 - Pretraga niz tipa Array na liniji 27
+INFO  17:08:08,855 - Pretraga bodovi tipa Int na liniji 28
+INFO  17:08:08,855 - Pretraga niz tipa Array na liniji 28
+INFO  17:08:08,855 - Pretraga niz tipa Array na liniji 28
+INFO  17:08:08,855 - Pretraga bodovi tipa Int na liniji 29
+INFO  17:08:08,855 - Pretraga niz tipa Array na liniji 30
+INFO  17:08:08,856 - Pretraga nizch tipa Array na liniji 34
+INFO  17:08:08,856 - Pretraga nizch tipa Array na liniji 35
+INFO  17:08:08,856 - Pretraga nizch tipa Array na liniji 36
+INFO  17:08:08,856 - Pretraga nizch tipa Array na liniji 37
+INFO  17:08:08,856 - Pretraga nizch tipa Array na liniji 38
+INFO  17:08:08,856 - Pretraga bodovi tipa Int na liniji 41
+INFO  17:08:08,856 - Pretraga bodovi tipa Int na liniji 41
+INFO  17:08:08,856 - Pretraga bodovi tipa Int na liniji 41
+INFO  17:08:08,856 - Pretraga bodovi tipa Int na liniji 42
+INFO  17:08:08,856 - Pretraga bodovi tipa Int na liniji 45
+INFO  17:08:08,856 - Pretraga bodovi tipa Int na liniji 48
+INFO  17:08:08,857 - Pretraga bodovi tipa Int na liniji 50
+INFO  17:08:08,857 - Pretraga bodovi tipa Int na liniji 50
+INFO  17:08:08,857 - Pretraga bodovi tipa Int na liniji 51
+INFO  17:08:08,857 - Pretraga bodovi tipa Int na liniji 53
+INFO  17:08:08,857 - Pretraga bodovi tipa Int na liniji 53
+INFO  17:08:08,857 - Pretraga bodovi tipa Int na liniji 54
+INFO  17:08:08,857 - Sintaksna analiza uspesno zavrsena!
+INFO  17:08:08,857 - Semanticka analiza uspesno zavrsena!
+INFO  17:08:08,864 - Generisanje koda uspesno zavrseno!

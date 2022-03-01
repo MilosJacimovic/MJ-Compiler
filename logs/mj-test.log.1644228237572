@@ -1,0 +1,185 @@
+INFO  11:03:13,878 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  11:03:13,932 - #2 program
+INFO  11:03:13,932 - #48 test301
+INFO  11:03:13,932 - #48 bool
+INFO  11:03:13,934 - #48 b
+INFO  11:03:13,934 - #20 ;
+INFO  11:03:13,935 - #48 bool
+INFO  11:03:13,935 - #48 bl
+INFO  11:03:13,935 - #24 [
+INFO  11:03:13,935 - #25 ]
+INFO  11:03:13,935 - #20 ;
+INFO  11:03:13,935 - #7 {
+INFO  11:03:13,936 - #8 void
+INFO  11:03:13,936 - #48 main
+INFO  11:03:13,936 - #22 (
+INFO  11:03:13,937 - #23 )
+INFO  11:03:13,937 - #7 {
+INFO  11:03:13,937 - #48 bl
+INFO  11:03:13,938 - #16 =
+INFO  11:03:13,939 - #3 new
+INFO  11:03:13,939 - #48 bool
+INFO  11:03:13,939 - #24 [
+INFO  11:03:13,939 - #50 2
+INFO  11:03:13,942 - #25 ]
+INFO  11:03:13,944 - #20 ;
+INFO  11:03:13,945 - #48 b
+INFO  11:03:13,945 - #16 =
+INFO  11:03:13,945 - #49 true
+INFO  11:03:13,945 - #20 ;
+INFO  11:03:13,945 - #4 print
+INFO  11:03:13,945 - #22 (
+INFO  11:03:13,945 - #48 b
+INFO  11:03:13,945 - #23 )
+INFO  11:03:13,946 - #20 ;
+INFO  11:03:13,946 - #10 }
+INFO  11:03:13,947 - #10 }
+INFO  11:03:13,961 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclList(
+    GlobalDeclList(
+      NoGlobalDeclarationList(
+      ) [NoGlobalDeclarationList]
+      VarDecl(
+        MultipleVarDecls(
+          Type(
+           bool
+          ) [Type]
+          SingleVarDecl(
+            GlobalSimpleVarDecl(
+             b
+            ) [GlobalSimpleVarDecl]
+          ) [SingleVarDecl]
+        ) [MultipleVarDecls]
+      ) [VarDecl]
+    ) [GlobalDeclList]
+    VarDecl(
+      MultipleVarDecls(
+        Type(
+         bool
+        ) [Type]
+        SingleVarDecl(
+          GlobalArrayVarDecl(
+           bl
+          ) [GlobalArrayVarDecl]
+        ) [SingleVarDecl]
+      ) [MultipleVarDecls]
+    ) [VarDecl]
+  ) [GlobalDeclList]
+  MainMethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    NoLocalVarDeclarations(
+    ) [NoLocalVarDeclarations]
+    StmtList(
+      StmtList(
+        StmtList(
+          NoStatement(
+          ) [NoStatement]
+          NoLabelStatement(
+            DesignatorStmt(
+              AssignDesignator(
+                AssignmentDesignatorOk(
+                  VarDesignator(
+                   bl
+                  ) [VarDesignator]
+                ) [AssignmentDesignatorOk]
+                AssignmentExprOk(
+                  ExprAdditionList(
+                    MultipleFactorTerm(
+                      NewArrayFactor(
+                        Type(
+                         bool
+                        ) [Type]
+                        ExprAdditionList(
+                          MultipleFactorTerm(
+                            ConstFactor(
+                              NumberConst(
+                               2
+                              ) [NumberConst]
+                            ) [ConstFactor]
+                            NoMullopList(
+                            ) [NoMullopList]
+                          ) [MultipleFactorTerm]
+                          NoAdditionList(
+                          ) [NoAdditionList]
+                        ) [ExprAdditionList]
+                      ) [NewArrayFactor]
+                      NoMullopList(
+                      ) [NoMullopList]
+                    ) [MultipleFactorTerm]
+                    NoAdditionList(
+                    ) [NoAdditionList]
+                  ) [ExprAdditionList]
+                ) [AssignmentExprOk]
+              ) [AssignDesignator]
+            ) [DesignatorStmt]
+          ) [NoLabelStatement]
+        ) [StmtList]
+        NoLabelStatement(
+          DesignatorStmt(
+            AssignDesignator(
+              AssignmentDesignatorOk(
+                VarDesignator(
+                 b
+                ) [VarDesignator]
+              ) [AssignmentDesignatorOk]
+              AssignmentExprOk(
+                ExprAdditionList(
+                  MultipleFactorTerm(
+                    ConstFactor(
+                      BoolConst(
+                       true
+                      ) [BoolConst]
+                    ) [ConstFactor]
+                    NoMullopList(
+                    ) [NoMullopList]
+                  ) [MultipleFactorTerm]
+                  NoAdditionList(
+                  ) [NoAdditionList]
+                ) [ExprAdditionList]
+              ) [AssignmentExprOk]
+            ) [AssignDesignator]
+          ) [DesignatorStmt]
+        ) [NoLabelStatement]
+      ) [StmtList]
+      NoLabelStatement(
+        PrintStmt(
+          ExprAdditionList(
+            MultipleFactorTerm(
+              DesignatorFactor(
+                VarDesignator(
+                 b
+                ) [VarDesignator]
+              ) [DesignatorFactor]
+              NoMullopList(
+              ) [NoMullopList]
+            ) [MultipleFactorTerm]
+            NoAdditionList(
+            ) [NoAdditionList]
+          ) [ExprAdditionList]
+          NoPrintOptions(
+          ) [NoPrintOptions]
+        ) [PrintStmt]
+      ) [NoLabelStatement]
+    ) [StmtList]
+    MethodRBrace(
+    ) [MethodRBrace]
+  ) [MainMethodDecl]
+) [Program]
+INFO  11:03:13,962 - ===================================
+INFO  11:03:13,965 - otvoren scope za program na liniji 3
+INFO  11:03:13,965 - Deklarisana globalna promenljiva b tipa Bool na liniji 5
+INFO  11:03:13,965 - Deklarisana globalna promenljiva bl tipa Bool[] na liniji 6
+INFO  11:03:13,965 - Deklarisana main metoda na liniji 9
+INFO  11:03:13,966 - otvoren scope za main na liniji 9
+INFO  11:03:13,966 - Pretraga b tipa Bool na liniji 13
+INFO  11:03:13,966 - Pretraga b tipa Bool na liniji 15
+INFO  11:03:13,966 - zatvoren scope za main na liniji 9
+INFO  11:03:13,966 - zatvoren scope za program na liniji 3
+INFO  11:03:13,966 - Sintaksna analiza uspesno zavrsena!
+INFO  11:03:13,966 - Semanticka analiza uspesno zavrsena!
+INFO  11:03:13,972 - Generisanje koda uspesno zavrseno!

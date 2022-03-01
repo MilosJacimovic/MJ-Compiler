@@ -1,0 +1,11 @@
+INFO  16:39:18,968 - Compiling source file: C:\Users\milos\Desktop\PP1\milosjacimovic\MJCompiler\test\program.mj
+INFO  16:39:19,001 - #2 program
+INFO  16:39:19,001 - #48 test301
+INFO  16:39:19,001 - #7 {
+INFO  16:39:19,002 - #8 void
+INFO  16:39:19,002 - #48 main
+INFO  16:39:19,002 - #22 (
+INFO  16:39:19,003 - #23 )
+INFO  16:39:19,003 - #7 {
+INFO  16:39:19,003 - #4 print
+INFO  16:39:19,004 - #22 (

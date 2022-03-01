@@ -1,0 +1,235 @@
+
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	Logger log = Logger.getLogger(getClass());
+	
+	Boolean errorDetected = false;
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+    	errorDetected = true;
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+    	errorDetected = true;
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+terminal PROG, NEW, PRINT, READ, RETURN, LBRACE, VOID, GOTO, RBRACE, PLUS, MINUS, MUL, DIV;
+terminal MOD, EQUAL, INC, DEC, DOUBLEDOT, SEMI, COMMA, LPAREN, RPAREN, LBRACKET, RBRACKET, CONST;
+
+terminal BREAK, CLASS, ENUM, ELSE, IF, DO, WHILE, EXTENDS, CONTINUE, THIS, SUPER, RECORD;
+terminal EQUALTO, NOTEQUAL, GREATER, GRTOREQL, LESS, LESSOREQL, AND, OR, DOT;
+
+terminal String IDENT, BOOL;
+terminal Integer NUMBER;
+terminal Character CHAR;
+
+
+nonterminal GlobalDeclarationList, GlobalDeclaration, ConstDeclaration, MultipleConstDeclaration;
+nonterminal VarDeclaration, MultipleVarDeclarations, SingleVarDeclaration, MultipleVarDeclarationList;
+nonterminal MainMethodDeclaration, LocalVarDeclarations, MultipleLocalVarDecl;
+nonterminal Statement, StatementLabelOption, DesignatorStatement, Addop, Mullop;
+nonterminal Addition, Multiplication, SingleLocalVarDecl, StatementList, MethodRBrace;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, ConstValue, SingleConstDeclaration, Designator, PrintOptions, Label;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ArrayName, Expr, Factor, Term, Assignment, MethodName;
+
+
+Program ::= (Program) PROG ProgName GlobalDeclarationList LBRACE MainMethodDeclaration RBRACE ;
+
+ProgName ::= (ProgName) IDENT:progName ;
+
+							
+GlobalDeclarationList ::= (GlobalDeclList) GlobalDeclarationList GlobalDeclaration
+						|
+						(NoGlobalDeclarationList) /* epsilon */
+						;
+						
+GlobalDeclaration ::= (ConstDecl) ConstDeclaration
+					|
+					(VarDecl) VarDeclaration
+					;
+
+ConstDeclaration ::= (MultipleConstDeclarations) CONST Type:constType  MultipleConstDeclaration SEMI ;
+
+Type ::= (Type) IDENT:typeName ;
+
+MultipleConstDeclaration ::= (MultipleConstDecl) MultipleConstDeclaration COMMA SingleConstDeclaration
+							|
+							(SingleConstDeclarations) SingleConstDeclaration
+							;
+							
+SingleConstDeclaration ::= (SingleConstDecl) IDENT:constName EQUAL ConstValue:constVal ;
+
+
+ConstValue ::= (NumberConst) NUMBER:numValue
+			|
+			(CharConst) CHAR:charValue
+			|
+			(BoolConst) BOOL:boolValue
+			;
+
+VarDeclaration ::= (MultipleVarDecls) Type:varType MultipleVarDeclarationList SEMI
+				|
+				(MultipleVarDeclsError) error:e
+				{: parser.report_error("Izvrsen oporavak u liniji " + eleft, null); :}
+				;
+
+MultipleVarDeclarationList ::= (MultipleVarDeclList) MultipleVarDeclarationList COMMA SingleVarDeclaration
+				|
+				(SingleVarDecl) SingleVarDeclaration
+				;
+				
+SingleVarDeclaration ::= (GlobalSimpleVarDecl) IDENT:smplVarName
+						|
+						(GlobalArrayVarDecl) IDENT:arryValName LBRACKET RBRACKET
+						|
+						(SingleVarDeclarationError) error:e
+						{: parser.report_error("Izvrsen oporavak u liniji " + eleft, null); :}
+						;
+						
+MainMethodDeclaration ::= (MainMethodDecl) VOID:retType MethodName LPAREN RPAREN LocalVarDeclarations LBRACE StatementList MethodRBrace ;
+
+MethodRBrace ::= (MethodRBrace) RBRACE ;
+
+MethodName ::= (MethodName) IDENT:methodName ;
+
+LocalVarDeclarations ::= (HasLocalVarDeclarations) LocalVarDeclarations Type:localVarType MultipleLocalVarDecl SEMI
+						|
+						(NoLocalVarDeclarations) /* epsilon */
+						;
+						
+MultipleLocalVarDecl ::= (MultipleLocalVarDecls) MultipleLocalVarDecl COMMA SingleLocalVarDecl
+						|
+						(SingleLocalVarDeclaration) SingleLocalVarDecl
+						;
+						
+SingleLocalVarDecl ::= (SimpleLocalVarDecl) IDENT:smplLocalVarName
+						|
+						(ArrayLocalVarDecl) IDENT:arryLocalVarName LBRACKET RBRACKET
+						;
+						
+StatementList ::= (StmtList) StatementList StatementLabelOption:stmtLabel
+				|
+				(NoStatement) /* epsilon */
+				;
+
+StatementLabelOption ::= (LabelStatement) Label:label DOUBLEDOT Statement
+						|
+						(NoLabelStatement) Statement
+						;
+	
+Label ::= (Label) IDENT:labelName ;
+
+Statement ::= (DesignatorStmt) DesignatorStatement SEMI
+			|
+			(ReadStmt) READ LPAREN Designator:readValue RPAREN SEMI
+			|
+			(PrintStmt) PRINT LPAREN Expr PrintOptions:prntOption RPAREN SEMI
+			|
+			(GotoStmt) GOTO Label SEMI
+			|
+			(StatementBlock) LBRACE StatementList RBRACE
+			;
+
+PrintOptions ::= (HasPrintOption) COMMA NUMBER:printValue
+				|
+				(NoPrintOptions) /* epsilon */
+				;
+
+DesignatorStatement ::= (AssignDesignator) Assignment
+					|
+					(AssignmentError) error:e
+					{: parser.report_error("Izvrsen oporavak u liniji " + eleft, null); :}
+					|
+					(IncrementDesignator) Designator:incDesg INC
+					|
+					(DecrementDesignator) Designator:decDesg DEC
+					;
+	
+Assignment ::= (Assignment) Designator:assignDesign EQUAL Expr:assignExpr ;
+			
+					
+Designator ::= (VarDesignator) IDENT:designatorName
+			|
+			(ArrayDesignator) ArrayName LBRACKET Expr:expr RBRACKET
+			;
+			
+ArrayName ::= (ArrayName) IDENT:arrName ;
+
+Expr ::= (NegativeExpresion) MINUS Term:exprTerm Addition
+		|
+		(ExprAdditionList) Term:exprTerm Addition
+		;
+
+Addition ::= (AdditionList) Addition Addop Term
+			|
+			(NoAdditionList) /* epsilon */
+			;
+		
+Addop ::= (Plus) PLUS
+		|
+		(Minus) MINUS
+		;
+		
+Term ::= (MultipleFactorTerm) Factor:factor Multiplication ;
+
+Multiplication ::= (MullopList) Multiplication Mullop Factor
+				|
+				(NoMullopList) /* epsilon */
+				;
+
+		
+Mullop ::= (Mul) MUL
+		|
+		(Div) DIV
+		|
+		(Mod) MOD
+		;
+		
+Factor ::= (DesignatorFactor) Designator:desgnFactor
+		|
+		(ConstFactor) ConstValue
+		|
+		(ExprFactor) LPAREN Expr:exprFact RPAREN
+		|
+		(NewArrayFactor) NEW Type:arrayFactorType LBRACKET Expr:expr RBRACKET
+		;
